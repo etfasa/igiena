@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulare Examen Electronică Medicală</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .question { margin-bottom: 20px; }
+        .answers { list-style-type: none; padding: 0; }
+        .answers li { margin-bottom: 10px; }
+        .answers li.correct { color: green; font-weight: bold; }
+        .answers li.incorrect { color: red; text-decoration: line-through; }
+        .multiple-correct { border: 2px solid blue; padding: 10px; background-color: #e6f7ff; }
+        #progress, #statistics { margin: 20px 0; font-weight: bold; }
+        #submit { margin: 20px 0; padding: 10px 20px; font-size: 16px; background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+        #submit:hover { background-color: #45a049; }
+        #controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 10px; }
+        #controls button { padding: 8px 14px; font-size: 14px; cursor: pointer; }
+        .file-label { padding: 8px 14px; background-color: #2196F3; color: white; border-radius: 4px; cursor: pointer; font-size: 14px; }
+        .file-label:hover { background-color: #1976D2; }
+        #fileInput { display: none; }
+        #sessionInfo { color: #555; }
+        #result { margin: 20px 0; padding: 16px 20px; border-radius: 6px; font-size: 16px; display: none; }
+        #result.pass { display: block; background-color: #e8f5e9; border: 2px solid #2e7d32; color: #1b5e20; }
+        #result.fail { display: block; background-color: #fdecea; border: 2px solid #c62828; color: #b71c1c; }
+        #result h2 { margin: 0 0 10px 0; font-size: 20px; }
+        #result table { border-collapse: collapse; margin-top: 10px; }
+        #result td { padding: 4px 14px 4px 0; }
+        #result td:first-child { color: #444; }
+        #result .verdict { font-weight: bold; font-size: 18px; }
+    </style>
+</head>
+<body>
+    <h1>Simulare Examen Electronică Medicală</h1>
+    <div id="controls">
+        <label for="fileInput" class="file-label">Încarcă fișier întrebări (.json)</label>
+        <input type="file" id="fileInput" accept=".json,application/json">
+        <button id="generateTest" disabled>Generează Test</button>
+        <button id="resetSession">Resetează Sesiunea</button>
+        <button id="resetProgress">Resetează Progresul</button>
+        <button id="submit" disabled>Trimite Testul</button>
+    </div>
+    <p id="progress"></p>
+    <p id="statistics"></p>
+    <p id="sessionInfo"></p>
+    <div id="result"></div>
+    <div id="exam-container"></div>
+
+    <script>
+        const generateTestButton = document.getElementById('generateTest');
+        const resetProgressButton = document.getElementById('resetProgress');
+        const resetSessionButton = document.getElementById('resetSession');
+        const fileInput = document.getElementById('fileInput');
+        const submitButton = document.getElementById('submit');
+        const progressDisplay = document.getElementById('progress');
+        const statisticsDisplay = document.getElementById('statistics');
+        const sessionInfoDisplay = document.getElementById('sessionInfo');
+        const resultDisplay = document.getElementById('result');
+        const examContainer = document.getElementById('exam-container');
+
+        let loadedData = [];
+        let currentTest = [];
+        let totalCorrectAnswersUsed = 0;
+        let totalQuestionsUsed = 0;
+        // Întrebările (după indexul din fișier) deja folosite în sesiunea curentă
+        let usedInSession = new Set();
+
+        // Validez structura unui fișier de întrebări încărcat
+        function isValidData(data) {
+            return Array.isArray(data) && data.length > 0 && data.every(q =>
+                q && typeof q.question === 'string' && Array.isArray(q.answers) &&
+                q.answers.every(a => a && typeof a.text === 'string' && typeof a.is_correct === 'boolean'));
+        }
+
+        function applyData(data, sursa) {
+            if (!isValidData(data)) {
+                alert('Fișierul nu are formatul așteptat (listă de întrebări cu text și is_correct).');
+                return;
+            }
+            loadedData = data;
+            usedInSession = new Set();
+            currentTest = [];
+            examContainer.innerHTML = '';
+            generateTestButton.disabled = false;
+            submitButton.disabled = true;
+            updateStatistics();
+            updateSessionInfo();
+            alert('Întrebări încărcate din ' + sursa + ': ' + data.length + ' întrebări.');
+        }
+
+        // Încărcare automată din folder (rezervă) – funcționează doar prin server local
+        fetch('intrebari.json')
+            .then(response => {
+                if (!response.ok) throw new Error('HTTP ' + response.status);
+                return response.json();
+            })
+            .then(data => applyData(data, 'intrebari.json'))
+            .catch(() => {
+                statisticsDisplay.textContent = 'Nu s-a încărcat automat intrebari.json. Folosește butonul "Încarcă fișier întrebări (.json)".';
+            });
+
+        // Încărcare manuală cu alegerea locației
+        fileInput.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = (ev) => {
+                try {
+                    const data = JSON.parse(ev.target.result);
+                    applyData(data, file.name);
+                } catch (err) {
+                    alert('Eroare la citirea fișierului JSON: ' + err.message);
+                }
+            };
+            reader.onerror = () => alert('Nu s-a putut citi fișierul.');
+            reader.readAsText(file, 'UTF-8');
+            fileInput.value = ''; // permite reîncărcarea aceluiași fișier
+        });
+
+        generateTestButton.addEventListener('click', () => {
+            if (loadedData.length === 0) return;
+
+            const total = loadedData.length;
+            const nefolosite = loadedData.map((_, i) => i).filter(i => !usedInSession.has(i));
+            const disponibile = nefolosite.length;
+
+            let indecsiObligatorii = [];
+            let indecsiCompletare = [];
+            let esteTestDeTranzitie = false;
+
+            if (disponibile === 0) {
+                // Toate întrebările au fost văzute — ciclu nou complet
+                usedInSession = new Set();
+                indecsiObligatorii = [];
+                indecsiCompletare = loadedData.map((_, i) => i);
+            } else if (disponibile < 32) {
+                // Test de tranziție: include toate rămase + completează din cele deja folosite
+                esteTestDeTranzitie = true;
+                indecsiObligatorii = [...nefolosite];
+                indecsiCompletare = loadedData.map((_, i) => i).filter(i => usedInSession.has(i));
+                // După acest test, resetăm sesiunea pentru a reîncepe ciclul
+            } else {
+                // Suficiente întrebări noi — test normal
+                indecsiObligatorii = [];
+                indecsiCompletare = nefolosite;
+            }
+
+            currentTest = generateTest(loadedData, 32, 16, 16, indecsiObligatorii, indecsiCompletare);
+
+            if (esteTestDeTranzitie) {
+                // Resetăm sesiunea și marcăm cele 32 din testul de tranziție ca folosite în noul ciclu
+                usedInSession = new Set();
+            }
+            // Întotdeauna marchez întrebările din testul curent
+            currentTest.forEach(q => usedInSession.add(q.srcIndex));
+
+            displayExam(currentTest);
+            resultDisplay.className = '';
+            resultDisplay.innerHTML = '';
+            submitButton.disabled = false;
+            updateSessionInfo();
+        });
+
+        resetSessionButton.addEventListener('click', () => {
+            usedInSession = new Set();
+            updateSessionInfo();
+            alert('Istoricul sesiunii a fost resetat. Întrebările pot apărea din nou.');
+        });
+
+        resetProgressButton.addEventListener('click', () => {
+            totalCorrectAnswersUsed = 0;
+            totalQuestionsUsed = 0;
+            updateProgress();
+            alert('Progresul a fost resetat cu succes!');
+        });
+
+        submitButton.addEventListener('click', () => {
+            let totalScore = 0, correctAnswersInTest = 0;
+
+            currentTest.forEach((q, index) => {
+                const checkboxes = document.querySelectorAll(`#exam-container .question:nth-child(${index + 1}) input[type='checkbox']`);
+                let correctChecked = 0, incorrectChecked = 0, correctAnswersCount = 0;
+
+                checkboxes.forEach(checkbox => {
+                    const isCorrect = checkbox.dataset.correct === 'true';
+                    if (isCorrect) correctAnswersCount++;
+                    if (checkbox.checked) {
+                        if (isCorrect) correctChecked++;
+                        else incorrectChecked++;
+                    }
+                });
+
+                let questionScore = 0;
+                if (correctAnswersCount === 1) questionScore = correctChecked === 1 && incorrectChecked === 0 ? 5 : 0;
+                else if (correctAnswersCount === 2) {
+                    if (correctChecked === 2 && incorrectChecked === 0) questionScore = 5;
+                    else if (correctChecked === 1 && incorrectChecked === 0) questionScore = 3;
+                    else if (correctChecked === 1 && incorrectChecked === 1) questionScore = 2;
+                    else if (correctChecked === 2 && incorrectChecked === 1) questionScore = 4;
+                } else if (correctAnswersCount === 3) {
+                    if (correctChecked === 3 && incorrectChecked === 0) questionScore = 5;
+                    else if (correctChecked === 2 && incorrectChecked === 0) questionScore = 4;
+                    else if (correctChecked === 2 && incorrectChecked === 1) questionScore = 3;
+                    else if (correctChecked === 1 && incorrectChecked === 2) questionScore = 1;
+                } else if (correctAnswersCount === 4) {
+                    if (correctChecked === 4 && incorrectChecked === 0) questionScore = 5;
+                    else if (correctChecked === 3 && incorrectChecked === 0) questionScore = 4;
+                    else if (correctChecked === 3 && incorrectChecked === 1) questionScore = 3;
+                    else if (correctChecked === 2 && incorrectChecked === 1) questionScore = 3;
+                    else if (correctChecked === 2 && incorrectChecked === 0) questionScore = 3;
+                    else if (correctChecked === 1 && incorrectChecked === 1) questionScore = 1;
+                }
+
+                totalScore += questionScore;
+                correctAnswersInTest += correctChecked;
+
+                checkboxes.forEach(checkbox => {
+                    const parent = checkbox.parentElement;
+                    if (checkbox.checked) {
+                        if (checkbox.dataset.correct === 'true') parent.classList.add('correct');
+                        else parent.classList.add('incorrect');
+                    } else {
+                        if (checkbox.dataset.correct === 'true') parent.classList.add('correct');
+                    }
+                });
+            });
+
+            totalCorrectAnswersUsed += correctAnswersInTest;
+            totalQuestionsUsed += currentTest.length;
+            updateProgress();
+
+            // Punctaj maxim: 5 puncte per întrebare
+            const maxScore = currentTest.length * 5;
+            const procent = maxScore > 0 ? (totalScore / maxScore) * 100 : 0;
+            // Nota pe scara 10 (regula de trei simplă)
+            const nota = maxScore > 0 ? (totalScore / maxScore) * 10 : 0;
+            // Prag de trecere: minim 50% din punctaj = nota 5
+            const promovat = procent >= 50;
+            const pragPuncte = maxScore / 2;
+
+            resultDisplay.className = promovat ? 'pass' : 'fail';
+            resultDisplay.innerHTML =
+                '<h2>Rezultatul testului</h2>' +
+                '<table>' +
+                '<tr><td>Punctaj obținut:</td><td><strong>' + totalScore + ' / ' + maxScore + ' puncte</strong></td></tr>' +
+                '<tr><td>Procentaj:</td><td><strong>' + procent.toFixed(1) + '%</strong></td></tr>' +
+                '<tr><td>Nota (scara 10):</td><td><strong>' + nota.toFixed(2) + '</strong></td></tr>' +
+                '<tr><td>Prag de trecere:</td><td>' + pragPuncte + ' puncte (50% = nota 5)</td></tr>' +
+                '</table>' +
+                '<p class="verdict">' + (promovat
+                    ? 'ADMIS — ai promovat testul.'
+                    : 'RESPINS — nu ai atins pragul minim de trecere.') + '</p>';
+            resultDisplay.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+            submitButton.disabled = true;
+        });
+
+        function generateTest(data, numQuestions, singleCorrectCount, multipleCorrectCount, indecsiObligatorii, indecsiCompletare) {
+            // Construiesc o variantă afișabilă: 5 răspunsuri din pool, garantând cel puțin 1 corect
+            function buildVariant(idx) {
+                const question = data[idx];
+                const correct = question.answers.filter(a => a.is_correct);
+                const wrong = question.answers.filter(a => !a.is_correct);
+                const sc = [...correct].sort(() => Math.random() - 0.5);
+                const sw = [...wrong].sort(() => Math.random() - 0.5);
+
+                let nCorrect = 1 + Math.floor(Math.random() * Math.min(4, sc.length));
+                nCorrect = Math.min(nCorrect, 5);
+                let nWrong = Math.min(5 - nCorrect, sw.length);
+                if (nCorrect + nWrong < 5) nCorrect = Math.min(sc.length, 5 - nWrong);
+
+                const selected = [...sc.slice(0, nCorrect), ...sw.slice(0, nWrong)]
+                    .sort(() => Math.random() - 0.5);
+                const correctCount = selected.filter(a => a.is_correct).length;
+                return { srcIndex: idx, question: question.question, image: question.image, answers: selected, correctCount };
+            }
+
+            function adaugaLaTest(test, idxList, singleRef, multipleRef, limit) {
+                // Trecere 1: respect cotele single/multiple
+                const shuffled = [...idxList].sort(() => Math.random() - 0.5);
+                const folositi = new Set(test.map(t => t.srcIndex));
+                for (const idx of shuffled) {
+                    if (test.length >= limit) break;
+                    if (folositi.has(idx)) continue;
+                    const v = buildVariant(idx);
+                    if (v.correctCount === 1 && singleRef.count < singleCorrectCount) {
+                        test.push(v); singleRef.count++; folositi.add(idx);
+                    } else if (v.correctCount >= 2 && multipleRef.count < multipleCorrectCount) {
+                        test.push(v); multipleRef.count++; folositi.add(idx);
+                    }
+                }
+                // Trecere 2: completez fără restricție de tip dacă nu am ajuns la limită
+                for (const idx of shuffled) {
+                    if (test.length >= limit) break;
+                    if (folositi.has(idx)) continue;
+                    test.push(buildVariant(idx));
+                    folositi.add(idx);
+                }
+            }
+
+            const test = [];
+            const singleRef = { count: 0 };
+            const multipleRef = { count: 0 };
+            const target = numQuestions;
+
+            // Pasul 1: adaug întrebările obligatorii (cele rămase nefolosite)
+            if (indecsiObligatorii && indecsiObligatorii.length > 0) {
+                adaugaLaTest(test, indecsiObligatorii, singleRef, multipleRef, target);
+            }
+
+            // Pasul 2: completez până la 32 din pool-ul de completare (întrebări deja văzute sau toate)
+            if (test.length < target && indecsiCompletare && indecsiCompletare.length > 0) {
+                adaugaLaTest(test, indecsiCompletare, singleRef, multipleRef, target);
+            }
+
+            return test;
+        }
+
+        function displayExam(data) {
+            examContainer.innerHTML = '';
+            data.forEach((q, i) => {
+                const qDiv = document.createElement('div');
+                qDiv.className = 'question';
+                if (q.correctCount > 1) qDiv.classList.add('multiple-correct');
+
+                const h3 = document.createElement('h3');
+                h3.textContent = `Întrebarea ${i + 1}: ${q.question}`;
+                qDiv.appendChild(h3);
+
+                if (q.image) {
+                    const img = document.createElement('img');
+                    img.src = q.image;
+                    img.alt = `Imagine întrebare ${i + 1}`;
+                    img.style.maxWidth = '700px';
+                    img.style.margin = '10px 0';
+                    qDiv.appendChild(img);
+                }
+
+                const ul = document.createElement('ul');
+                ul.className = 'answers';
+                q.answers.forEach((a, j) => {
+                    const li = document.createElement('li');
+                    const cb = document.createElement('input');
+                    cb.type = 'checkbox';
+                    cb.id = `q${i}_a${j}`;
+                    cb.dataset.correct = a.is_correct;
+                    cb.name = `q${i}`;
+                    const label = document.createElement('label');
+                    label.htmlFor = cb.id;
+                    label.textContent = `${String.fromCharCode(65 + j)}. ${a.text}`;
+                    li.appendChild(cb);
+                    li.appendChild(label);
+                    ul.appendChild(li);
+                });
+
+                qDiv.appendChild(ul);
+                examContainer.appendChild(qDiv);
+            });
+        }
+
+        function updateProgress() {
+            progressDisplay.textContent = `Progres total: ${totalQuestionsUsed} întrebări și ${totalCorrectAnswersUsed} răspunsuri corecte parcurse.`;
+        }
+
+        function updateStatistics() {
+            const totalQuestions = loadedData.length;
+            const totalAnswers = loadedData.reduce((sum, q) => sum + q.answers.length, 0);
+            statisticsDisplay.textContent = `Statistici: ${totalQuestions} întrebări în total și ${totalAnswers} răspunsuri disponibile.`;
+        }
+
+        function updateSessionInfo() {
+            const total = loadedData.length;
+            const folosite = usedInSession.size;
+            const ramase = total - folosite;
+            sessionInfoDisplay.textContent = total === 0 ? '' :
+                `Sesiune curentă: ${folosite} întrebări parcurse, ${ramase} întrebări încă neîntâlnite.`;
+        }
+    </script>
+</body>
+</html>
