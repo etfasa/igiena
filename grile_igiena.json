@@ -1,0 +1,6752 @@
+[
+  {
+    "question": "Selectați afirmațiile corecte privind cadrul legal al cabinetelor de audiologie:",
+    "answers": [
+      {
+        "text": "Cabinetul de audiologie este unitate de asistență medicală ambulatorie ",
+        "is_correct": true
+      },
+      {
+        "text": "Legea nr. 95/2006 reglementează domeniul sănătății ",
+        "is_correct": true
+      },
+      {
+        "text": "Ordinul nr. 914/2006 stabilește condiții igienico-sanitare ",
+        "is_correct": true
+      },
+      {
+        "text": "Regulamentul (UE) 2017/745 se aplică dispozitivelor medicale ",
+        "is_correct": true
+      },
+      {
+        "text": "Regulamentul GDPR protejează datele pacienților ",
+        "is_correct": true
+      },
+      {
+        "text": "Cabinetele sunt încadrate ca unități industriale ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu există reglementări europene ",
+        "is_correct": false
+      },
+      {
+        "text": " DSP nu are rol de control ",
+        "is_correct": false
+      },
+      {
+        "text": " Legea 95/2006 se aplică doar spitalelor ",
+        "is_correct": false
+      },
+      {
+        "text": "JGDPR reglementează igiena ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați afirmațiile corecte privind rolul DSP:",
+    "answers": [
+      {
+        "text": " DSP avizează funcționarea cabinetelor ",
+        "is_correct": true
+      },
+      {
+        "text": "DSP efectuează controale la fața locului ",
+        "is_correct": true
+      },
+      {
+        "text": " DSP verifică condițiile igienico-sanitare ",
+        "is_correct": true
+      },
+      {
+        "text": " DSP validează documentația depusă ",
+        "is_correct": true
+      },
+      {
+        "text": " DSP controlează respectarea normelor de igienă ",
+        "is_correct": true
+      },
+      {
+        "text": " DSP stabilește taxe bancare ",
+        "is_correct": false
+      },
+      {
+        "text": " DSP gestionează salariile ",
+        "is_correct": false
+      },
+      {
+        "text": " DSP emite diplome ",
+        "is_correct": false
+      },
+      {
+        "text": " DSP aprobă tratamentele medicale ",
+        "is_correct": false
+      },
+      {
+        "text": " DSP administrează spitale ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați documentele necesare pentru avizul DSP:",
+    "answers": [
+      {
+        "text": "Cerere tip ",
+        "is_correct": true
+      },
+      {
+        "text": "Planul spațiului ",
+        "is_correct": true
+      },
+      {
+        "text": "Memoriu tehnic ",
+        "is_correct": true
+      },
+      {
+        "text": "Contract de salubritate ",
+        "is_correct": true
+      },
+      {
+        "text": "Contract de Deratizare, Dezinsecție și Dezinfecție",
+        "is_correct": true
+      },
+      {
+        "text": "Permis de conducere ",
+        "is_correct": false
+      },
+      {
+        "text": " CV personal ",
+        "is_correct": false
+      },
+      {
+        "text": "Certificat de naștere ",
+        "is_correct": false
+      },
+      {
+        "text": " Contract de telefon ",
+        "is_correct": false
+      },
+      {
+        "text": " Diplome școlare generale ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați afirmațiile corecte privind personalul:",
+    "answers": [
+      {
+        "text": "Este necesar personal medical calificat ",
+        "is_correct": true
+      },
+      {
+        "text": "Poate include medic ORL ",
+        "is_correct": true
+      },
+      {
+        "text": " Poate include audiolog clinician ",
+        "is_correct": true
+      },
+      {
+        "text": " Tehnicianul poate adapta aparate auditive ",
+        "is_correct": true
+      },
+      {
+        "text": "Este necesară dovada calificării profesionale ",
+        "is_correct": true
+      },
+      {
+        "text": " Nu este necesară calificare ",
+        "is_correct": false
+      },
+      {
+        "text": " Poate fi angajat personal fără studii ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu sunt necesare contracte ",
+        "is_correct": false
+      },
+      {
+        "text": "Tehnicianul stabilește diagnosticul ",
+        "is_correct": false
+      },
+      {
+        "text": "Orice persoană poate lucra ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați echipamentele obligatorii:",
+    "answers": [
+      {
+        "text": " Audiometru clinic ",
+        "is_correct": true
+      },
+      {
+        "text": "Timpanometru ",
+        "is_correct": true
+      },
+      {
+        "text": " Cabină audiometrică ",
+        "is_correct": true
+      },
+      {
+        "text": "Otoscop ",
+        "is_correct": true
+      },
+      {
+        "text": "Software audiologic ",
+        "is_correct": true
+      },
+      {
+        "text": " Ecograf ",
+        "is_correct": false
+      },
+      {
+        "text": " Electrocardiograf ",
+        "is_correct": false
+      },
+      {
+        "text": " Aparat RMN ",
+        "is_correct": false
+      },
+      {
+        "text": " Microscop electronic ",
+        "is_correct": false
+      },
+      {
+        "text": " Scanner industrial ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați cerințele GDPR (Regulamentul general privind protecția datelor.)aplicabile:",
+    "answers": [
+      {
+        "text": " Registru de evidență a datelor ",
+        "is_correct": true
+      },
+      {
+        "text": "Politică de confidențialitate ",
+        "is_correct": true
+      },
+      {
+        "text": " Consimțământ informat ",
+        "is_correct": true
+      },
+      {
+        "text": "Protecția datelor electronice ",
+        "is_correct": true
+      },
+      {
+        "text": " Contract IT pentru date digitale ",
+        "is_correct": true
+      },
+      {
+        "text": " Nu este necesar consimțământ ",
+        "is_correct": false
+      },
+      {
+        "text": " Datele pot fi publice ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu există evidență ",
+        "is_correct": false
+      },
+      {
+        "text": " GDPR se aplică doar firmelor ",
+        "is_correct": false
+      },
+      {
+        "text": " GDPR nu se aplică cabinetelor ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați condițiile igienico-sanitare obligatorii:",
+    "answers": [
+      {
+        "text": " Chiuvetă cu apă caldă și rece ",
+        "is_correct": true
+      },
+      {
+        "text": "Săpun și dezinfectant ",
+        "is_correct": true
+      },
+      {
+        "text": " Ventilație corespunzătoare ",
+        "is_correct": true
+      },
+      {
+        "text": " Curățenie zilnică ",
+        "is_correct": true
+      },
+      {
+        "text": "Suprafețe lavabile ",
+        "is_correct": true
+      },
+      {
+        "text": " Lipsa apei ",
+        "is_correct": false
+      },
+      {
+        "text": " Ventilație necontrolată ",
+        "is_correct": false
+      },
+      {
+        "text": " Curățenie ocazională ",
+        "is_correct": false
+      },
+      {
+        "text": " Suprafețe poroase ",
+        "is_correct": false
+      },
+      {
+        "text": "Lipsa dezinfectantului ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați obligațiile privind deșeurile medicale:",
+    "answers": [
+      {
+        "text": " Colectare selectivă ",
+        "is_correct": true
+      },
+      {
+        "text": " Recipiente cod culoare ",
+        "is_correct": true
+      },
+      {
+        "text": "Contract cu firmă autorizată ",
+        "is_correct": true
+      },
+      {
+        "text": " Registru de evidență ",
+        "is_correct": true
+      },
+      {
+        "text": " Eliminare controlată ",
+        "is_correct": true
+      },
+      {
+        "text": " Aruncare la gunoi menajer ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa evidenței ",
+        "is_correct": false
+      },
+      {
+        "text": " Amestecarea deșeurilor ",
+        "is_correct": false
+      },
+      {
+        "text": " Eliminare liberă ",
+        "is_correct": false
+      },
+      {
+        "text": " Depozitare necontrolată ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați cerințele pentru dezinfecție:",
+    "answers": [
+      {
+        "text": " Dezinfectanți avizați ",
+        "is_correct": true
+      },
+      {
+        "text": "Respectarea concentrațiilor ",
+        "is_correct": true
+      },
+      {
+        "text": " Evidența dezinfecției ",
+        "is_correct": true
+      },
+      {
+        "text": " Curățare după fiecare pacient ",
+        "is_correct": true
+      },
+      {
+        "text": " Proceduri scrise ",
+        "is_correct": true
+      },
+      {
+        "text": "Utilizarea apei simple ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa evidenței ",
+        "is_correct": false
+      },
+      {
+        "text": " Dezinfectanți neautorizați ",
+        "is_correct": false
+      },
+      {
+        "text": " Curățare rară ",
+        "is_correct": false
+      },
+      {
+        "text": " Ignorarea procedurilor ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați dotările minime ale cabinetului:",
+    "answers": [
+      {
+        "text": " Spațiu de consultații ",
+        "is_correct": true
+      },
+      {
+        "text": " Spațiu de așteptare ",
+        "is_correct": true
+      },
+      {
+        "text": "Grup sanitar ",
+        "is_correct": true
+      },
+      {
+        "text": "Spațiu depozitare ",
+        "is_correct": true
+      },
+      {
+        "text": " Mobilier medical ",
+        "is_correct": true
+      },
+      {
+        "text": " Lipsa spațiului sanitar ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa spațiului de așteptare ",
+        "is_correct": false
+      },
+      {
+        "text": " Spațiu neautorizat ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa mobilierului ",
+        "is_correct": false
+      },
+      {
+        "text": "Lipsa depozitării ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați obligațiile privind igiena personalului:",
+    "answers": [
+      {
+        "text": " Purtarea halatului ",
+        "is_correct": true
+      },
+      {
+        "text": " Utilizarea mănușilor ",
+        "is_correct": true
+      },
+      {
+        "text": " Instruire periodică ",
+        "is_correct": true
+      },
+      {
+        "text": " Control medical periodic ",
+        "is_correct": true
+      },
+      {
+        "text": "Respectarea normelor de igienă ",
+        "is_correct": true
+      },
+      {
+        "text": "Lipsa echipamentului ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără instruire ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără controale ",
+        "is_correct": false
+      },
+      {
+        "text": "Nerespectarea normelor ",
+        "is_correct": false
+      },
+      {
+        "text": " Utilizarea echipamentului murdar ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați activitățile incluse în domeniul audiologic:",
+    "answers": [
+      {
+        "text": " Audiometrie ",
+        "is_correct": true
+      },
+      {
+        "text": "Timpanometrie ",
+        "is_correct": true
+      },
+      {
+        "text": " Adaptare aparate auditive ",
+        "is_correct": true
+      },
+      {
+        "text": "Consultații audiologice ",
+        "is_correct": true
+      },
+      {
+        "text": "Mulaje auriculare ",
+        "is_correct": true
+      },
+      {
+        "text": " Chirurgie ",
+        "is_correct": false
+      },
+      {
+        "text": " Radiologie ",
+        "is_correct": false
+      },
+      {
+        "text": " Cardiologie ",
+        "is_correct": false
+      },
+      {
+        "text": " Dermatologie ",
+        "is_correct": false
+      },
+      {
+        "text": "Oncologie",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați cerințele tehnice legale pentru echipamente:",
+    "answers": [
+      {
+        "text": " Conformitate CE ",
+        "is_correct": true
+      },
+      {
+        "text": " Mentenanță periodică ",
+        "is_correct": true
+      },
+      {
+        "text": " Calibrare periodică ",
+        "is_correct": true
+      },
+      {
+        "text": " Fișe tehnice ",
+        "is_correct": true
+      },
+      {
+        "text": "Trasabilitate ",
+        "is_correct": true
+      },
+      {
+        "text": " Lipsa documentației ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără mentenanță ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără calibrare ",
+        "is_correct": false
+      },
+      {
+        "text": " Utilizare necontrolată ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa trasabilității ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați elementele verificate de DSP in cabinetul de audiologie:",
+    "answers": [
+      {
+        "text": " Proceduri de igienă ",
+        "is_correct": true
+      },
+      {
+        "text": "Registre de evidență ",
+        "is_correct": true
+      },
+      {
+        "text": " Dezinfectanți avizați ",
+        "is_correct": true
+      },
+      {
+        "text": " Dotări minime ",
+        "is_correct": true
+      },
+      {
+        "text": " Contracte obligatorii ",
+        "is_correct": true
+      },
+      {
+        "text": "Design interior ",
+        "is_correct": false
+      },
+      {
+        "text": " Culoare pereți ",
+        "is_correct": false
+      },
+      {
+        "text": " Brand echipamente ",
+        "is_correct": false
+      },
+      {
+        "text": " Decor ",
+        "is_correct": false
+      },
+      {
+        "text": " Mobilier estetic ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați concluziile privind igiena în audiologie:",
+    "answers": [
+      {
+        "text": " Respectă aceleași norme ca alte unități medicale ",
+        "is_correct": true
+      },
+      {
+        "text": " Accent pe dezinfecția echipamentelor ",
+        "is_correct": true
+      },
+      {
+        "text": " Prevenirea contaminării auriculare este esențială ",
+        "is_correct": true
+      },
+      {
+        "text": "Materialele de unică folosință sunt recomandate ",
+        "is_correct": true
+      },
+      {
+        "text": "Procedurile scrise sunt obligatorii ",
+        "is_correct": true
+      },
+      {
+        "text": " Igiena este opțională ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu există reguli ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu se aplică DSP ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu este necesară dezinfecția ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu există controale",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați afirmațiile corecte privind curățenia:",
+    "answers": [
+      {
+        "text": "Îndepărtează murdăria și materia organică ",
+        "is_correct": true
+      },
+      {
+        "text": "Se realizează mecanic și chimic (detergent) ",
+        "is_correct": true
+      },
+      {
+        "text": " Reduce încărcătura microbiană prin îndepărtare ",
+        "is_correct": true
+      },
+      {
+        "text": " Este etapă obligatorie înainte de dezinfecție ",
+        "is_correct": true
+      },
+      {
+        "text": "Îndepărtează biofilmul ",
+        "is_correct": true
+      },
+      {
+        "text": " Distruge garantat toți microbii ",
+        "is_correct": false
+      },
+      {
+        "text": " Înlocuiește sterilizarea ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită apă ",
+        "is_correct": false
+      },
+      {
+        "text": " Este opțională ",
+        "is_correct": false
+      },
+      {
+        "text": " Elimină sporii ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați afirmațiile corecte privind dezinfecția:",
+    "answers": [
+      {
+        "text": " Distruge majoritatea microorganismelor patogene ",
+        "is_correct": true
+      },
+      {
+        "text": "Se aplică pe suprafețe și obiecte ",
+        "is_correct": true
+      },
+      {
+        "text": " Depinde de timpul de contact ",
+        "is_correct": true
+      },
+      {
+        "text": "Necesită diluție corectă ",
+        "is_correct": true
+      },
+      {
+        "text": " Are niveluri (scăzut, mediu, înalt) ",
+        "is_correct": true
+      },
+      {
+        "text": " Elimină întotdeauna sporii ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu depinde de produs ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită timp de acțiune ",
+        "is_correct": false
+      },
+      {
+        "text": "Se aplică fără curățare ",
+        "is_correct": false
+      },
+      {
+        "text": " Este identică sterilizării ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați afirmațiile corecte privind sterilizarea:",
+    "answers": [
+      {
+        "text": " Elimină toate microorganismele ",
+        "is_correct": true
+      },
+      {
+        "text": " Include sporii bacterieni ",
+        "is_correct": true
+      },
+      {
+        "text": " Se aplică instrumentelor mdicale critice ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită control și indicatori ",
+        "is_correct": true
+      },
+      {
+        "text": " Include metode fizice și chimice ",
+        "is_correct": true
+      },
+      {
+        "text": " Este opțională ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu elimină sporii ",
+        "is_correct": false
+      },
+      {
+        "text": " Este identică dezinfecției ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită control ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are parametri ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile sporilor bacterieni:",
+    "answers": [
+      {
+        "text": "Prezinta forme de rezistență bacteriană ",
+        "is_correct": true
+      },
+      {
+        "text": " Rezistă la condiții extreme ",
+        "is_correct": true
+      },
+      {
+        "text": " Au metabolism inactiv ",
+        "is_correct": true
+      },
+      {
+        "text": " Pot reveni la forma vegetativă ",
+        "is_correct": true
+      },
+      {
+        "text": " Sunt greu de eliminat prin dezinfecție ",
+        "is_correct": true
+      },
+      {
+        "text": " Sunt sensibili la orice detergent ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu rezistă la căldură ",
+        "is_correct": false
+      },
+      {
+        "text": " Sunt virusuri ",
+        "is_correct": false
+      },
+      {
+        "text": " Sunt eliminați prin curățare simplă ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu există în mediul clinic",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați afirmațiile corecte despre virusuri:",
+    "answers": [
+      {
+        "text": "Sunt agenți infecțioși acelulari ",
+        "is_correct": true
+      },
+      {
+        "text": " Conțin ADN sau ARN ",
+        "is_correct": true
+      },
+      {
+        "text": " Se multiplică doar în celule vii ",
+        "is_correct": true
+      },
+      {
+        "text": " Virusurile învelite sunt mai sensibile la dezinfectanți ",
+        "is_correct": true
+      },
+      {
+        "text": "Virusurile neînvelite sunt mai rezistente ",
+        "is_correct": true
+      },
+      {
+        "text": "Sunt bacterii ",
+        "is_correct": false
+      },
+      {
+        "text": " Se reproduc independent ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu au material genetic ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu sunt influențate de mediu ",
+        "is_correct": false
+      },
+      {
+        "text": " Sunt eliminate doar prin curățare ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați parametrii critici ai dezinfecției:",
+    "answers": [
+      {
+        "text": "Timpul de contact ",
+        "is_correct": true
+      },
+      {
+        "text": "Diluția corectă ",
+        "is_correct": true
+      },
+      {
+        "text": "Tipul produsului ",
+        "is_correct": true
+      },
+      {
+        "text": "Temperatura ",
+        "is_correct": true
+      },
+      {
+        "text": " Încărcătura organică ",
+        "is_correct": true
+      },
+      {
+        "text": " Culoarea suprafeței ",
+        "is_correct": false
+      },
+      {
+        "text": " Ora din zi ",
+        "is_correct": false
+      },
+      {
+        "text": " Tipul mobilierului ",
+        "is_correct": false
+      },
+      {
+        "text": " Dimensiunea camerei ",
+        "is_correct": false
+      },
+      {
+        "text": " Iluminarea",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați afirmațiile corecte privind clasificarea Spaulding:",
+    "answers": [
+      {
+        "text": " Clasifică dispozitivele după risc ",
+        "is_correct": true
+      },
+      {
+        "text": "Definește nivelul de decontaminare necesar ",
+        "is_correct": true
+      },
+      {
+        "text": " Include dispozitive critice, semicritice și necritice ",
+        "is_correct": true
+      },
+      {
+        "text": " Ghidează alegerea metodei (curățare/dezinfecție/sterilizare) ",
+        "is_correct": true
+      },
+      {
+        "text": " Este utilizată în practică medicală ",
+        "is_correct": true
+      },
+      {
+        "text": " Clasifică după culoare ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are aplicabilitate clinică ",
+        "is_correct": false
+      },
+      {
+        "text": " Este doar teoretică ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu implică risc ",
+        "is_correct": false
+      },
+      {
+        "text": " Este opțională ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile dispozitivelor medicale  critice:",
+    "answers": [
+      {
+        "text": " Pătrund în țesuturi sterile ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită sterilizare ",
+        "is_correct": true
+      },
+      {
+        "text": " Au risc mare de infecție ",
+        "is_correct": true
+      },
+      {
+        "text": " Pot intra în sistemul vascular ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită control strict ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită doar curățare ",
+        "is_correct": false
+      },
+      {
+        "text": " Sunt necritice ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu implică risc ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită sterilizare ",
+        "is_correct": false
+      },
+      {
+        "text": " Sunt folosite doar extern ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile dispozitivelor semicritice:",
+    "answers": [
+      {
+        "text": "Vin în contact cu mucoasele ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită dezinfecție de nivel înalt ",
+        "is_correct": true
+      },
+      {
+        "text": " Pot necesita sterilizare ",
+        "is_correct": true
+      },
+      {
+        "text": " Au risc moderat de infecție ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită reprocesare corectă ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită doar curățare ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu au risc ",
+        "is_correct": false
+      },
+      {
+        "text": "Sunt sterile ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită tratament ",
+        "is_correct": false
+      },
+      {
+        "text": " Sunt doar decorative",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile dispozitivelor necritice:",
+    "answers": [
+      {
+        "text": " Vin în contact cu pielea intactă ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită curățare riguroasă ",
+        "is_correct": true
+      },
+      {
+        "text": " Pot necesita dezinfecție de nivel scăzut ",
+        "is_correct": true
+      },
+      {
+        "text": " Au risc scăzut de infecție ",
+        "is_correct": true
+      },
+      {
+        "text": " Exemple: suprafețe și echipamente ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită sterilizare ",
+        "is_correct": false
+      },
+      {
+        "text": " Sunt invazive ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu necesită curățare ",
+        "is_correct": false
+      },
+      {
+        "text": " Au risc mare ",
+        "is_correct": false
+      },
+      {
+        "text": " Sunt sterile ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați etapele fluxului de reprocesare  instrumentar medical:",
+    "answers": [
+      {
+        "text": " Pre-curățare ",
+        "is_correct": true
+      },
+      {
+        "text": " Curățare ",
+        "is_correct": true
+      },
+      {
+        "text": " Dezinfecție ",
+        "is_correct": true
+      },
+      {
+        "text": " Sterilizare (dacă este cazul) ",
+        "is_correct": true
+      },
+      {
+        "text": " Depozitare ",
+        "is_correct": true
+      },
+      {
+        "text": " Eliminare totala imediată ",
+        "is_correct": false
+      },
+      {
+        "text": " Ignorarea etapelor ",
+        "is_correct": false
+      },
+      {
+        "text": "Dezinfecție înainte de curățare ",
+        "is_correct": false
+      },
+      {
+        "text": " Depozitare fără procesare ",
+        "is_correct": false
+      },
+      {
+        "text": " Utilizare directă",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați echipamentul individual de protecție:",
+    "answers": [
+      {
+        "text": " Mănuși ",
+        "is_correct": true
+      },
+      {
+        "text": " Protecție oculară ",
+        "is_correct": true
+      },
+      {
+        "text": " Halat ",
+        "is_correct": true
+      },
+      {
+        "text": " Mască (după caz) ",
+        "is_correct": true
+      },
+      {
+        "text": " Schimbare când se deteriorează ",
+        "is_correct": true
+      },
+      {
+        "text": " Nu este necesar ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu se reutilizează nesteril ",
+        "is_correct": false
+      },
+      {
+        "text": "Se evită ",
+        "is_correct": false
+      },
+      {
+        "text": "Este opțional ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu protejează ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați erorile frecvente în dezinfecție:",
+    "answers": [
+      {
+        "text": " Diluție greșită ",
+        "is_correct": true
+      },
+      {
+        "text": "Timp de contact insuficient ",
+        "is_correct": true
+      },
+      {
+        "text": " Aplicare peste materie organică ",
+        "is_correct": true
+      },
+      {
+        "text": "Incompatibilitate material ",
+        "is_correct": true
+      },
+      {
+        "text": " Lipsa trasabilității ",
+        "is_correct": true
+      },
+      {
+        "text": " Respectarea procedurilor ",
+        "is_correct": false
+      },
+      {
+        "text": " Utilizarea corectă ",
+        "is_correct": false
+      },
+      {
+        "text": " Respectarea timpului ",
+        "is_correct": false
+      },
+      {
+        "text": " Curățare corectă ",
+        "is_correct": false
+      },
+      {
+        "text": " Controlul procesului ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați afirmațiile corecte privind FIFO (primul intrat, primul ieșit):",
+    "answers": [
+      {
+        "text": "Primul intrat este primul utilizat ",
+        "is_correct": true
+      },
+      {
+        "text": "Previne expirarea produselor ",
+        "is_correct": true
+      },
+      {
+        "text": "Reduce risipa ",
+        "is_correct": true
+      },
+      {
+        "text": " Se aplică consumabilelor medicale ",
+        "is_correct": true
+      },
+      {
+        "text": " Este metodă de gestiune a stocurilor ",
+        "is_correct": true
+      },
+      {
+        "text": " Este metodă de sterilizare ",
+        "is_correct": false
+      },
+      {
+        "text": " Este metodă de dezinfecție ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu are scop practic ",
+        "is_correct": false
+      },
+      {
+        "text": " Se aplică doar alimentelor ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu previne pierderile ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați măsurile de siguranță in cabinet:",
+    "answers": [
+      {
+        "text": " Ventilație adecvată ",
+        "is_correct": true
+      },
+      {
+        "text": "Depozitare materiale corectă ",
+        "is_correct": true
+      },
+      {
+        "text": " Utilizare EIP (echipament individual de protecție)",
+        "is_correct": true
+      },
+      {
+        "text": " Evitarea amestecării substanțelor incompatibile",
+        "is_correct": true
+      },
+      {
+        "text": " Etichetare corectă ",
+        "is_correct": true
+      },
+      {
+        "text": " Ignorarea normelor ",
+        "is_correct": false
+      },
+      {
+        "text": "Lipsa ventilației ",
+        "is_correct": false
+      },
+      {
+        "text": " Amestecarea substanțelor ",
+        "is_correct": false
+      },
+      {
+        "text": " Depozitare necontrolată ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa etichetării ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați caracteristicile curățeniei corecte:",
+    "answers": [
+      {
+        "text": " Include detergent și apă ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită acțiune mecanică ",
+        "is_correct": true
+      },
+      {
+        "text": " Include clătire și uscare ",
+        "is_correct": true
+      },
+      {
+        "text": " Reduce biofilmul ",
+        "is_correct": true
+      },
+      {
+        "text": " Este etapă inițială ",
+        "is_correct": true
+      },
+      {
+        "text": " Nu implică detergent ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu implică apă ",
+        "is_correct": false
+      },
+      {
+        "text": " Este finală ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu este necesară ",
+        "is_correct": false
+      },
+      {
+        "text": " Elimină toți microbii ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați metode de sterilizare:",
+    "answers": [
+      {
+        "text": " Autoclav (abur) ",
+        "is_correct": true
+      },
+      {
+        "text": "Căldură uscată ",
+        "is_correct": true
+      },
+      {
+        "text": " Peroxid/plasmă ",
+        "is_correct": true
+      },
+      {
+        "text": " Oxid de etilenă ",
+        "is_correct": true
+      },
+      {
+        "text": " Radiații ",
+        "is_correct": true
+      },
+      {
+        "text": " Detergenți ",
+        "is_correct": false
+      },
+      {
+        "text": " Apă rece ",
+        "is_correct": false
+      },
+      {
+        "text": " Aer simplu ",
+        "is_correct": false
+      },
+      {
+        "text": " Curățare ",
+        "is_correct": false
+      },
+      {
+        "text": " Spălare ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile dezinfecției de nivel înalt:",
+    "answers": [
+      {
+        "text": " Elimină majoritatea microorganismelor ",
+        "is_correct": true
+      },
+      {
+        "text": " Poate fi sporicidă (uneori) ",
+        "is_correct": true
+      },
+      {
+        "text": " Se aplică dispozitivelor semicritice ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită control strict ",
+        "is_correct": true
+      },
+      {
+        "text": " Include agenți puternici ",
+        "is_correct": true
+      },
+      {
+        "text": " Este identică curățării ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită control ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are efect ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu depinde de timp ",
+        "is_correct": false
+      },
+      {
+        "text": " Este opțională ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați afirmațiile corecte despre biofilm:",
+    "answers": [
+      {
+        "text": " Protejează microorganismele ",
+        "is_correct": true
+      },
+      {
+        "text": " Este îndepărtat prin curățare ",
+        "is_correct": true
+      },
+      {
+        "text": " Reduce eficiența dezinfectanților ",
+        "is_correct": true
+      },
+      {
+        "text": " Este asociat materiei organice ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită îndepărtare mecanică ",
+        "is_correct": true
+      },
+      {
+        "text": " Nu influențează dezinfecția ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu există ",
+        "is_correct": false
+      },
+      {
+        "text": " Este eliminat spontan ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu afectează sterilizarea ",
+        "is_correct": false
+      },
+      {
+        "text": " Este benefic ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile SOP (Procedură operațională standard):",
+    "answers": [
+      {
+        "text": "Proceduri standardizate ",
+        "is_correct": true
+      },
+      {
+        "text": "Trebuie sa fie clare și concise ",
+        "is_correct": true
+      },
+      {
+        "text": " Aplicare practică ",
+        "is_correct": true
+      },
+      {
+        "text": " Reduc erorile ",
+        "is_correct": true
+      },
+      {
+        "text": " Sunt ușor de consultat ",
+        "is_correct": true
+      },
+      {
+        "text": " Sunt inutile ",
+        "is_correct": false
+      },
+      {
+        "text": " Sunt complicate ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu sunt aplicate ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu au rol ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu sunt necesare ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați caracteristicile incidentului „spill”:",
+    "answers": [
+      {
+        "text": " Vărsare accidentală de fluide biologice ",
+        "is_correct": true
+      },
+      {
+        "text": "Necesită intervenție imediată ",
+        "is_correct": true
+      },
+      {
+        "text": " Implică risc de contaminare ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită dezinfecție ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită raportare ",
+        "is_correct": true
+      },
+      {
+        "text": " Nu prezintă risc ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită acțiune ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu implică infecții ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită curățare ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu este relevant ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați factorii implicați în transmiterea microorganismelor:",
+    "answers": [
+      {
+        "text": " Prezența agentului patogen ",
+        "is_correct": true
+      },
+      {
+        "text": "Virulența microorganismului ",
+        "is_correct": true
+      },
+      {
+        "text": " Concentrația acestuia în mediu ",
+        "is_correct": true
+      },
+      {
+        "text": " Existența căii de transmitere ",
+        "is_correct": true
+      },
+      {
+        "text": " Susceptibilitatea gazdei ",
+        "is_correct": true
+      },
+      {
+        "text": " Culoarea pereților ",
+        "is_correct": false
+      },
+      {
+        "text": " Tipul mobilierului ",
+        "is_correct": false
+      },
+      {
+        "text": " Iluminarea ",
+        "is_correct": false
+      },
+      {
+        "text": " Designul cabinetului ",
+        "is_correct": false
+      },
+      {
+        "text": " Tipul pardoselii",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați afirmațiile corecte privind curățenia:",
+    "answers": [
+      {
+        "text": " Este metodă de decontaminare frecvent utilizată ",
+        "is_correct": true
+      },
+      {
+        "text": " Îndepărtează microorganismele împreună cu murdăria ",
+        "is_correct": true
+      },
+      {
+        "text": "Elimină 95–98% din microorganisme ",
+        "is_correct": true
+      },
+      {
+        "text": " Nu înlocuiește dezinfecția ",
+        "is_correct": true
+      },
+      {
+        "text": "Este etapă obligatorie ",
+        "is_correct": true
+      },
+      {
+        "text": "Elimină toți microbii ",
+        "is_correct": false
+      },
+      {
+        "text": " Înlocuiește sterilizarea ",
+        "is_correct": false
+      },
+      {
+        "text": " Este opțională ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are efect ",
+        "is_correct": false
+      },
+      {
+        "text": " Elimină sporii ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați cerințele pentru curățenie:",
+    "answers": [
+      {
+        "text": " Stabilirea obiectului de curățat ",
+        "is_correct": true
+      },
+      {
+        "text": " Stabilirea frecvenței curățeniei ",
+        "is_correct": true
+      },
+      {
+        "text": " Respectarea procedurilor ",
+        "is_correct": true
+      },
+      {
+        "text": " Monitorizarea activității ",
+        "is_correct": true
+      },
+      {
+        "text": " Planificarea activităților ",
+        "is_correct": true
+      },
+      {
+        "text": " Curățenie aleatorie ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa planificării ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa frecvenței ",
+        "is_correct": false
+      },
+      {
+        "text": " Inseamna ignorarea procedurilor ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu necesita monitorizare ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați elementele obligatorii ale programului de curățenie:",
+    "answers": [
+      {
+        "text": " Proceduri operaționale existente ",
+        "is_correct": true
+      },
+      {
+        "text": " Grafic zilnic/orar ",
+        "is_correct": true
+      },
+      {
+        "text": " Sa existe semnături de confirmare ",
+        "is_correct": true
+      },
+      {
+        "text": " Monitorizare ",
+        "is_correct": true
+      },
+      {
+        "text": " Documentație tehnică ",
+        "is_correct": true
+      },
+      {
+        "text": " Lipsa documentelor ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa graficului ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa controlului ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa semnăturilor ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa procedurilor ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați zonele de care trebuie sa se tina cont in  cabinetul de audiologie:",
+    "answers": [
+      {
+        "text": " Zonă administrativă ",
+        "is_correct": true
+      },
+      {
+        "text": " Zonă clinică ",
+        "is_correct": true
+      },
+      {
+        "text": " Zonă sanitară ",
+        "is_correct": true
+      },
+      {
+        "text": "Puncte frecvent atinse ",
+        "is_correct": true
+      },
+      {
+        "text": " Zona pacientului ",
+        "is_correct": true
+      },
+      {
+        "text": " Zonă industrială ",
+        "is_correct": false
+      },
+      {
+        "text": " Zonă agricolă ",
+        "is_correct": false
+      },
+      {
+        "text": " Zonă sportivă ",
+        "is_correct": false
+      },
+      {
+        "text": " Zonă comercială ",
+        "is_correct": false
+      },
+      {
+        "text": " Zonă rezidențială ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați afirmațiile corecte privind zonele cu risc:",
+    "answers": [
+      {
+        "text": " Punctele frecvent atinse au risc crescut ",
+        "is_correct": true
+      },
+      {
+        "text": " Zona sanitară are risc mare ",
+        "is_correct": true
+      },
+      {
+        "text": " Zona clinică are risc mediu ",
+        "is_correct": true
+      },
+      {
+        "text": " Zona administrativă are risc redus–mediu ",
+        "is_correct": true
+      },
+      {
+        "text": " Zonele sunt tratate diferit în funcție de risc ",
+        "is_correct": true
+      },
+      {
+        "text": " Toate zonele au risc zero ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu există diferențe de risc ",
+        "is_correct": false
+      },
+      {
+        "text": " Zona administrativă are risc maxim ",
+        "is_correct": false
+      },
+      {
+        "text": " Zona sanitară are risc minim ",
+        "is_correct": false
+      },
+      {
+        "text": " Zonele nu necesită tratament ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați etapele pregătirii curățeniei:",
+    "answers": [
+      {
+        "text": "Echipare cu echipament individual de protecție",
+        "is_correct": true
+      },
+      {
+        "text": " Verificarea graficului de curatenie",
+        "is_correct": true
+      },
+      {
+        "text": " Pregătirea materialelor ",
+        "is_correct": true
+      },
+      {
+        "text": " Pregătirea soluțiilor ",
+        "is_correct": true
+      },
+      {
+        "text": " Pregătirea ustensilelor ",
+        "is_correct": true
+      },
+      {
+        "text": " Ignorarea echipamentului ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa materialelor ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa verificării ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa soluțiilor ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa ustensilelor ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați principiile de curățenie:",
+    "answers": [
+      {
+        "text": "De la curat la murdar ",
+        "is_correct": true
+      },
+      {
+        "text": " De sus în jos ",
+        "is_correct": true
+      },
+      {
+        "text": " Din interior spre exterior ",
+        "is_correct": true
+      },
+      {
+        "text": "Evitarea recontaminării ",
+        "is_correct": true
+      },
+      {
+        "text": " Curățarea etapizată ",
+        "is_correct": true
+      },
+      {
+        "text": " De la murdar la curat ",
+        "is_correct": false
+      },
+      {
+        "text": " De jos în sus ",
+        "is_correct": false
+      },
+      {
+        "text": " Aleator ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără ordine ",
+        "is_correct": false
+      },
+      {
+        "text": "Fără reguli ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați regulile pentru curatenie suprafețe:",
+    "answers": [
+      {
+        "text": "Lavete dedicate pe zone ",
+        "is_correct": true
+      },
+      {
+        "text": " Respectarea compatibilității materialelor ",
+        "is_correct": true
+      },
+      {
+        "text": " Tratarea punctelor frecvent atinse ",
+        "is_correct": true
+      },
+      {
+        "text": "Curățare și dezinfecție după contaminare ",
+        "is_correct": true
+      },
+      {
+        "text": " Utilizare controlată a soluțiilor ",
+        "is_correct": true
+      },
+      {
+        "text": " Utilizare universală a lavetelor ",
+        "is_correct": false
+      },
+      {
+        "text": " Ignorarea compatibilității ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa curățării ",
+        "is_correct": false
+      },
+      {
+        "text": " Pulverizare excesivă ",
+        "is_correct": false
+      },
+      {
+        "text": "Lipsa dezinfecției ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați regulile pentru curatare pardoseli:",
+    "answers": [
+      {
+        "text": " Utilizarea mopului plat ",
+        "is_correct": true
+      },
+      {
+        "text": " Un mop la max. 20 m² ",
+        "is_correct": true
+      },
+      {
+        "text": " Schimbarea mopului între încăperi ",
+        "is_correct": true
+      },
+      {
+        "text": " Curățare din interior spre exterior ",
+        "is_correct": true
+      },
+      {
+        "text": " Material separat pentru grup sanitar ",
+        "is_correct": true
+      },
+      {
+        "text": " Utilizarea unui mop unic ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa schimbării apei",
+        "is_correct": false
+      },
+      {
+        "text": "Curățare aleatorie ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără separare ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa regulilor ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați regulile pentru găleți:",
+    "answers": [
+      {
+        "text": "Recipiente inscripționate ",
+        "is_correct": true
+      },
+      {
+        "text": "Separare galeti pe zone ",
+        "is_correct": true
+      },
+      {
+        "text": " Curățare și dezinfecție după utilizare ",
+        "is_correct": true
+      },
+      {
+        "text": " Uscare completă ",
+        "is_correct": true
+      },
+      {
+        "text": " Etichetare corectă ",
+        "is_correct": true
+      },
+      {
+        "text": " Recipiente alimentare ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa etichetării ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără curățare ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără dezinfecție ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără uscare ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați regulile pentru mopuri:",
+    "answers": [
+      {
+        "text": " Mop plat recomandat ",
+        "is_correct": true
+      },
+      {
+        "text": " Cate un mop pe incapere",
+        "is_correct": true
+      },
+      {
+        "text": " Trebuie curatate si dezinfectate ",
+        "is_correct": true
+      },
+      {
+        "text": " Trebuie uscate complet",
+        "is_correct": true
+      },
+      {
+        "text": "Număr suficient de rezerve ",
+        "is_correct": true
+      },
+      {
+        "text": " Mop murdar reutilizat ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără schimb ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără curățare ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără uscare ",
+        "is_correct": false
+      },
+      {
+        "text": " Mop unic ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați regulile pentru lavete:",
+    "answers": [
+      {
+        "text": " Coduri de culori ",
+        "is_correct": true
+      },
+      {
+        "text": " Utilizare dedicată pe zone ",
+        "is_correct": true
+      },
+      {
+        "text": " Curățare și dezinfecție după utilizare ",
+        "is_correct": true
+      },
+      {
+        "text": "Uscare completă ",
+        "is_correct": true
+      },
+      {
+        "text": " Evitarea transferului între zone ",
+        "is_correct": true
+      },
+      {
+        "text": " Utilizare universală ",
+        "is_correct": false
+      },
+      {
+        "text": "Fără curățare ",
+        "is_correct": false
+      },
+      {
+        "text": "Fără uscare ",
+        "is_correct": false
+      },
+      {
+        "text": " Transfer între zone ",
+        "is_correct": false
+      },
+      {
+        "text": " Reutilizare murdară ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați tipurile de soluții utilizate:",
+    "answers": [
+      {
+        "text": " Detergenți ",
+        "is_correct": true
+      },
+      {
+        "text": "Dezinfectanți ",
+        "is_correct": true
+      },
+      {
+        "text": " Antiseptice ",
+        "is_correct": true
+      },
+      {
+        "text": "Produse alcoolice/clorigeni/peroxizi ",
+        "is_correct": true
+      },
+      {
+        "text": "Produse avizate ",
+        "is_correct": true
+      },
+      {
+        "text": "Produse neautorizate ",
+        "is_correct": false
+      },
+      {
+        "text": "Produse necunoscute ",
+        "is_correct": false
+      },
+      {
+        "text": " Amestecuri aleatorii ",
+        "is_correct": false
+      },
+      {
+        "text": " Produse alimentare ",
+        "is_correct": false
+      },
+      {
+        "text": "Soluții neetichetate ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați regulile de preparare a soluțiilor:",
+    "answers": [
+      {
+        "text": " Respectarea concentrației ",
+        "is_correct": true
+      },
+      {
+        "text": " Respectarea timpului de contact ",
+        "is_correct": true
+      },
+      {
+        "text": "Etichetare corectă ",
+        "is_correct": true
+      },
+      {
+        "text": " Respectarea valabilității ",
+        "is_correct": true
+      },
+      {
+        "text": " Utilizarea recipientelor adecvate ",
+        "is_correct": true
+      },
+      {
+        "text": " Amestecarea produselor ",
+        "is_correct": false
+      },
+      {
+        "text": "Lipsa etichetării ",
+        "is_correct": false
+      },
+      {
+        "text": "Concentrație aleatorie ",
+        "is_correct": false
+      },
+      {
+        "text": " Utilizare după expirare ",
+        "is_correct": false
+      },
+      {
+        "text": " Recipiente alimentare ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați frecvențele de curățenie:",
+    "answers": [
+      {
+        "text": " Înainte de program ",
+        "is_correct": true
+      },
+      {
+        "text": " Între pacienți ",
+        "is_correct": true
+      },
+      {
+        "text": " La finalul programului ",
+        "is_correct": true
+      },
+      {
+        "text": " Zilnic pentru pardoseli ",
+        "is_correct": true
+      },
+      {
+        "text": " De mai multe ori/zi pentru zone critice ",
+        "is_correct": true
+      },
+      {
+        "text": " O dată pe săptămână ",
+        "is_correct": false
+      },
+      {
+        "text": "O dată pe lună ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără frecvență ",
+        "is_correct": false
+      },
+      {
+        "text": " Aleator ",
+        "is_correct": false
+      },
+      {
+        "text": "La nevoie rar ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați documentele obligatorii in cabinet:",
+    "answers": [
+      {
+        "text": " Proceduri operaționale ",
+        "is_correct": true
+      },
+      {
+        "text": " Grafic de curățenie ",
+        "is_correct": true
+      },
+      {
+        "text": " Fișe tehnice produse ",
+        "is_correct": true
+      },
+      {
+        "text": "Evidența instruirii ",
+        "is_correct": true
+      },
+      {
+        "text": " Documente de control ",
+        "is_correct": true
+      },
+      {
+        "text": "Lipsa documentelor ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa fișelor ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa instruirii ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa evidenței ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa controlului ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați responsabilitățile personalului:",
+    "answers": [
+      {
+        "text": "Respectarea procedurilor ",
+        "is_correct": true
+      },
+      {
+        "text": " Respectarea concentrațiilor solutiilor",
+        "is_correct": true
+      },
+      {
+        "text": " Respectarea timpului de contact ",
+        "is_correct": true
+      },
+      {
+        "text": " Completarea graficului de curatenie",
+        "is_correct": true
+      },
+      {
+        "text": " Respectarea trasabilității curateniei",
+        "is_correct": true
+      },
+      {
+        "text": " Ignorarea procedurilor ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa documentării ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa responsabilității ",
+        "is_correct": false
+      },
+      {
+        "text": " Nerespectarea regulilor ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa trasabilității ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați tehnicile de curățenie paviment:",
+    "answers": [
+      {
+        "text": " Măturatul umed ",
+        "is_correct": true
+      },
+      {
+        "text": " Spălarea pavimentului ",
+        "is_correct": true
+      },
+      {
+        "text": "Metoda celor două găleți ",
+        "is_correct": true
+      },
+      {
+        "text": " Metoda cu cărucior ",
+        "is_correct": true
+      },
+      {
+        "text": " Curățarea mecanică și chimică ",
+        "is_correct": true
+      },
+      {
+        "text": " Măturatul uscat ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără detergent ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără apă ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără metodă ",
+        "is_correct": false
+      },
+      {
+        "text": " Curățare superficială ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați regulile pentru igiena  grupuri sanitare:",
+    "answers": [
+      {
+        "text": " Curățare cu detergent-dezinfectant ",
+        "is_correct": true
+      },
+      {
+        "text": " Respectare ordine corectă a curățării ",
+        "is_correct": true
+      },
+      {
+        "text": "Dezinfecție obligatorie ",
+        "is_correct": true
+      },
+      {
+        "text": "Utilizare materiale dedicate ",
+        "is_correct": true
+      },
+      {
+        "text": "Tratarea depunerilor cu detartrant ",
+        "is_correct": true
+      },
+      {
+        "text": " Fără dezinfecție ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără ordine ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără materiale dedicate ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără detartrare ",
+        "is_correct": false
+      },
+      {
+        "text": "Curățare superficială ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați precauțiile pentru personalul de curatenie:",
+    "answers": [
+      {
+        "text": " Purtarea mănușilor ",
+        "is_correct": true
+      },
+      {
+        "text": " Respectarea instrucțiunilor producătorului pentru substante",
+        "is_correct": true
+      },
+      {
+        "text": " Evitarea amestecării produselor de curatenie",
+        "is_correct": true
+      },
+      {
+        "text": "Aplicarea separată a dezinfectantului ",
+        "is_correct": true
+      },
+      {
+        "text": " Respectarea normelor de siguranță ",
+        "is_correct": true
+      },
+      {
+        "text": " Amestecarea produselor ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără mănuși ",
+        "is_correct": false
+      },
+      {
+        "text": " Ignorarea instrucțiunilor ",
+        "is_correct": false
+      },
+      {
+        "text": " Aplicare necontrolată ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa protecției ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați afirmatiile corecte :",
+    "answers": [
+      {
+        "text": "Curățenia reduce riscul infecțiilor ",
+        "is_correct": true
+      },
+      {
+        "text": " Procedurile trebuie standardizate ",
+        "is_correct": true
+      },
+      {
+        "text": "Materialele trebuie separate pe zone ",
+        "is_correct": true
+      },
+      {
+        "text": "Trasabilitatea este esențială ",
+        "is_correct": true
+      },
+      {
+        "text": " Respectarea regulilor asigură siguranța pacientului ",
+        "is_correct": true
+      },
+      {
+        "text": " Curățenia este opțională ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu există risc infecțios ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu sunt necesare proceduri ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu este necesară documentarea ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu există responsabilități ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați afirmațiile corecte privind dezinfecția:",
+    "answers": [
+      {
+        "text": "Distruge majoritatea microorganismelor patogene (≈99,99%) ",
+        "is_correct": true
+      },
+      {
+        "text": " Nu distruge în mod obișnuit sporii bacterieni ",
+        "is_correct": true
+      },
+      {
+        "text": "Se aplică pe suprafețe și tegumente ",
+        "is_correct": true
+      },
+      {
+        "text": " Completează procesul de curățare ",
+        "is_correct": true
+      },
+      {
+        "text": " Este necesară pentru prevenirea infecțiilor",
+        "is_correct": true
+      },
+      {
+        "text": " Înlocuiește sterilizarea ",
+        "is_correct": false
+      },
+      {
+        "text": " Elimină absolut toți microorganismele ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu este necesară ",
+        "is_correct": false
+      },
+      {
+        "text": " Se aplică pe suport murdar ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are rol preventiv ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați tipurile de dezinfecție fizică:",
+    "answers": [
+      {
+        "text": " Flambarea ",
+        "is_correct": true
+      },
+      {
+        "text": "Incinerarea ",
+        "is_correct": true
+      },
+      {
+        "text": " Pasteurizarea ",
+        "is_correct": true
+      },
+      {
+        "text": " Fierberea ",
+        "is_correct": true
+      },
+      {
+        "text": "Radiațiile UV ",
+        "is_correct": true
+      },
+      {
+        "text": " Pulverizarea ",
+        "is_correct": false
+      },
+      {
+        "text": " Imersia ",
+        "is_correct": false
+      },
+      {
+        "text": " Detergenții ",
+        "is_correct": false
+      },
+      {
+        "text": " Soluțiile chimice ",
+        "is_correct": false
+      },
+      {
+        "text": " Antisepticele ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile dezinfectanților chimici:",
+    "answers": [
+      {
+        "text": " Sunt produse biocide ",
+        "is_correct": true
+      },
+      {
+        "text": " Conțin substanțe active antimicrobiene ",
+        "is_correct": true
+      },
+      {
+        "text": "Pot avea efect bactericid sau bacteriostatic ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită respectarea concentrației ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită respectarea timpului de contact ",
+        "is_correct": true
+      },
+      {
+        "text": " Nu necesită control ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu au efect asupra microorganismelor ",
+        "is_correct": false
+      },
+      {
+        "text": " Sunt identici detergenților ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită etichetare ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită documentație ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile detergentului-dezinfectant:",
+    "answers": [
+      {
+        "text": " Are rol dublu (curățare + dezinfecție) ",
+        "is_correct": true
+      },
+      {
+        "text": " Este utilizat pentru suprafețe ",
+        "is_correct": true
+      },
+      {
+        "text": " Reduce încărcătura microbiană ",
+        "is_correct": true
+      },
+      {
+        "text": "Necesită diluție corectă ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită timp de contact ",
+        "is_correct": true
+      },
+      {
+        "text": " Este doar detergent ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu are efect dezinfectant ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu necesită diluție ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită timp de contact ",
+        "is_correct": false
+      },
+      {
+        "text": " Este inutil",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați cerințele pentru recipiente cu dezinfectanți:",
+    "answers": [
+      {
+        "text": "Trebuie etichetate ",
+        "is_correct": true
+      },
+      {
+        "text": " Se notează data preparării ",
+        "is_correct": true
+      },
+      {
+        "text": " Se notează concentrația ",
+        "is_correct": true
+      },
+      {
+        "text": " Se notează denumirea produsului ",
+        "is_correct": true
+      },
+      {
+        "text": " Se utilizează recipiente dedicate ",
+        "is_correct": true
+      },
+      {
+        "text": " Se folosesc recipiente alimentare ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită etichetare ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită dată ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită concentrație ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită identificare",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați tipurile de produse biocide functie de utilizare in cabinet:",
+    "answers": [
+      {
+        "text": " Pentru dezinfecția mâinilor prin spălare ",
+        "is_correct": true
+      },
+      {
+        "text": "Pentru dezinfecția mâinilor prin frecare ",
+        "is_correct": true
+      },
+      {
+        "text": "Pentru dezinfecția pielii intacte ",
+        "is_correct": true
+      },
+      {
+        "text": "Pentru dezinfecția suprafețelor ",
+        "is_correct": true
+      },
+      {
+        "text": "Pentru dezinfecția dispozitivelor medicale ",
+        "is_correct": true
+      },
+      {
+        "text": " Pentru alimentație ",
+        "is_correct": false
+      },
+      {
+        "text": " Pentru construcții ",
+        "is_correct": false
+      },
+      {
+        "text": " Pentru industrie auto ",
+        "is_correct": false
+      },
+      {
+        "text": " Pentru agricultură ",
+        "is_correct": false
+      },
+      {
+        "text": "Pentru textile decorative ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați clasificarea dezinfectanților după acțiune:",
+    "answers": [
+      {
+        "text": " Bacteriostatic ",
+        "is_correct": true
+      },
+      {
+        "text": "Fungistatic ",
+        "is_correct": true
+      },
+      {
+        "text": " Virustatic ",
+        "is_correct": true
+      },
+      {
+        "text": "Bactericid ",
+        "is_correct": true
+      },
+      {
+        "text": " Virucid ",
+        "is_correct": true
+      },
+      {
+        "text": " Decorativ ",
+        "is_correct": false
+      },
+      {
+        "text": " Nutritiv ",
+        "is_correct": false
+      },
+      {
+        "text": "Aromatic ",
+        "is_correct": false
+      },
+      {
+        "text": " Industrial ",
+        "is_correct": false
+      },
+      {
+        "text": " Cosmetic ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați metodele de aplicare a dezinfectanților:",
+    "answers": [
+      {
+        "text": "Ștergere ",
+        "is_correct": true
+      },
+      {
+        "text": "Pulverizare ",
+        "is_correct": true
+      },
+      {
+        "text": " Imersie ",
+        "is_correct": true
+      },
+      {
+        "text": " Nebulizare ",
+        "is_correct": true
+      },
+      {
+        "text": " Spălare cu detergent-dezinfectant ",
+        "is_correct": true
+      },
+      {
+        "text": "Ardere ",
+        "is_correct": false
+      },
+      {
+        "text": "Evaporare naturală ",
+        "is_correct": false
+      },
+      {
+        "text": " Ventilație ",
+        "is_correct": false
+      },
+      {
+        "text": " Filtrare ",
+        "is_correct": false
+      },
+      {
+        "text": " Iradiere solară ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați regulile generale de utilizare solutii :",
+    "answers": [
+      {
+        "text": "Respectarea scopului produsului ",
+        "is_correct": true
+      },
+      {
+        "text": " Respectarea concentrației ",
+        "is_correct": true
+      },
+      {
+        "text": " Respectarea timpului de contact ",
+        "is_correct": true
+      },
+      {
+        "text": " Evitarea amestecării produselor ",
+        "is_correct": true
+      },
+      {
+        "text": "Etichetarea soluțiilor preparate ",
+        "is_correct": true
+      },
+      {
+        "text": " Amestecarea produselor ",
+        "is_correct": false
+      },
+      {
+        "text": " Utilizare aleatorie ",
+        "is_correct": false
+      },
+      {
+        "text": " Ignorarea instrucțiunilor ",
+        "is_correct": false
+      },
+      {
+        "text": "Lipsa etichetării ",
+        "is_correct": false
+      },
+      {
+        "text": " Utilizare după expirare ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați condițiile corecte de păstrare a dezinfectanților:",
+    "answers": [
+      {
+        "text": " În flacoane originale ",
+        "is_correct": true
+      },
+      {
+        "text": "La adăpost de lumină ",
+        "is_correct": true
+      },
+      {
+        "text": " La adăpost de căldură ",
+        "is_correct": true
+      },
+      {
+        "text": "Cu etichetă intactă ",
+        "is_correct": true
+      },
+      {
+        "text": " În condiții controlate ",
+        "is_correct": true
+      },
+      {
+        "text": " În recipiente alimentare ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără etichetă ",
+        "is_correct": false
+      },
+      {
+        "text": " La temperaturi extreme ",
+        "is_correct": false
+      },
+      {
+        "text": " Expuse la lumină ",
+        "is_correct": false
+      },
+      {
+        "text": " În recipiente improvizate ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile dezinfecției de nivel scăzut:",
+    "answers": [
+      {
+        "text": "Distruge bacterii vegetative ",
+        "is_correct": true
+      },
+      {
+        "text": " Distruge unele fungi",
+        "is_correct": true
+      },
+      {
+        "text": " Distruge unele virusuri ",
+        "is_correct": true
+      },
+      {
+        "text": " Nu acționează asupra sporilor ",
+        "is_correct": true
+      },
+      {
+        "text": "Se aplică suprafețelor noncritice",
+        "is_correct": true
+      },
+      {
+        "text": " Distruge sporii ",
+        "is_correct": false
+      },
+      {
+        "text": " Se aplică instrumentelor critice ",
+        "is_correct": false
+      },
+      {
+        "text": " Este sterilizare ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are rol ",
+        "is_correct": false
+      },
+      {
+        "text": " Este opțională ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile dezinfecției de nivel mediu:",
+    "answers": [
+      {
+        "text": "Distruge bacterii vegetative ",
+        "is_correct": true
+      },
+      {
+        "text": " Distruge Mycobacterium tuberculosis (nesporulat)",
+        "is_correct": true
+      },
+      {
+        "text": " Distruge fungi ",
+        "is_correct": true
+      },
+      {
+        "text": " Distruge virusuri ",
+        "is_correct": true
+      },
+      {
+        "text": " Nu distruge sporii bacterieni ",
+        "is_correct": true
+      },
+      {
+        "text": " Este sterilizare ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu are efect ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu distruge bacterii ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu este utilizată ",
+        "is_correct": false
+      },
+      {
+        "text": " Este inutilă ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile dezinfecției de nivel înalt:",
+    "answers": [
+      {
+        "text": " Distruge bacterii ",
+        "is_correct": true
+      },
+      {
+        "text": " Distruge fungi ",
+        "is_correct": true
+      },
+      {
+        "text": "Distruge virusuri ",
+        "is_correct": true
+      },
+      {
+        "text": "Distruge parțial sporii bacterieni ",
+        "is_correct": true
+      },
+      {
+        "text": " Se aplică suprafețelor cu risc crescut ",
+        "is_correct": true
+      },
+      {
+        "text": " Nu distruge microorganisme ",
+        "is_correct": false
+      },
+      {
+        "text": " Este identică curățării",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are aplicații ",
+        "is_correct": false
+      },
+      {
+        "text": " Este opțională ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are parametri ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați echipamentele supuse dezinfecției de nivel înalt:",
+    "answers": [
+      {
+        "text": " Endoscoape ",
+        "is_correct": true
+      },
+      {
+        "text": " Laringoscoape ",
+        "is_correct": true
+      },
+      {
+        "text": " Tuburi endotraheale ",
+        "is_correct": true
+      },
+      {
+        "text": " Echipamente de anestezie ",
+        "is_correct": true
+      },
+      {
+        "text": " Măști de oxigen ",
+        "is_correct": true
+      },
+      {
+        "text": " Mobilier decorativ ",
+        "is_correct": false
+      },
+      {
+        "text": " Pereți ",
+        "is_correct": false
+      },
+      {
+        "text": " Pardoseli ",
+        "is_correct": false
+      },
+      {
+        "text": " Scaune administrative ",
+        "is_correct": false
+      },
+      {
+        "text": "Uși ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați regula de bază a dezinfecției:",
+    "answers": [
+      {
+        "text": " Se aplică după curățare ",
+        "is_correct": true
+      },
+      {
+        "text": "Necesită suprafață curată ",
+        "is_correct": true
+      },
+      {
+        "text": "Trebuie respectata concentrația corectă pentru solutii utilizate",
+        "is_correct": true
+      },
+      {
+        "text": " Trebuie respectat  timpul de contact ",
+        "is_correct": true
+      },
+      {
+        "text": "Este parte din programul de igienă ",
+        "is_correct": true
+      },
+      {
+        "text": " Se aplică pe murdărie ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită reguli ",
+        "is_correct": false
+      },
+      {
+        "text": " Este opțională ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită timp ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită concentrație ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați ce se dezinfectează frecvent:",
+    "answers": [
+      {
+        "text": "Clanțe ",
+        "is_correct": true
+      },
+      {
+        "text": "Tastaturi ",
+        "is_correct": true
+      },
+      {
+        "text": " Mouse ",
+        "is_correct": true
+      },
+      {
+        "text": "Scaune pacient ",
+        "is_correct": true
+      },
+      {
+        "text": "Aparatură audiologică ",
+        "is_correct": true
+      },
+      {
+        "text": "Pereți exteriori ",
+        "is_correct": false
+      },
+      {
+        "text": "Tavane ",
+        "is_correct": false
+      },
+      {
+        "text": " Geamuri ",
+        "is_correct": false
+      },
+      {
+        "text": "Elemente decorative ",
+        "is_correct": false
+      },
+      {
+        "text": " Obiecte neutilizate ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați etapele procesului de dezinfecție:",
+    "answers": [
+      {
+        "text": "Pregătire ",
+        "is_correct": true
+      },
+      {
+        "text": " Curățare preliminară ",
+        "is_correct": true
+      },
+      {
+        "text": "Preparare soluție",
+        "is_correct": true
+      },
+      {
+        "text": " Aplicare ",
+        "is_correct": true
+      },
+      {
+        "text": " Respectare timp contact",
+        "is_correct": true
+      },
+      {
+        "text": "Ignorare ",
+        "is_correct": false
+      },
+      {
+        "text": " Aplicare fără curățare ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa preparării ",
+        "is_correct": false
+      },
+      {
+        "text": "Lipsa evidenței ",
+        "is_correct": false
+      },
+      {
+        "text": " Utilizare directă ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați criteriile de alegere a dezinfectantului:",
+    "answers": [
+      {
+        "text": " Spectrul de activitate ",
+        "is_correct": true
+      },
+      {
+        "text": "Timpul de acțiune ",
+        "is_correct": true
+      },
+      {
+        "text": " Compatibilitatea materialului ",
+        "is_correct": true
+      },
+      {
+        "text": " Stabilitatea produsului ",
+        "is_correct": true
+      },
+      {
+        "text": " Riscul de inactivare ",
+        "is_correct": true
+      },
+      {
+        "text": " Culoarea produsului ",
+        "is_correct": false
+      },
+      {
+        "text": " Mirosul ",
+        "is_correct": false
+      },
+      {
+        "text": " Prețul exclusiv ",
+        "is_correct": false
+      },
+      {
+        "text": " Ambalajul ",
+        "is_correct": false
+      },
+      {
+        "text": " Reclama ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați regulile corecte privind accesoriile audiologice:",
+    "answers": [
+      {
+        "text": " Curățare înainte de dezinfecție ",
+        "is_correct": true
+      },
+      {
+        "text": " Alegerea nivelului de risc ",
+        "is_correct": true
+      },
+      {
+        "text": " Respectarea instrucțiunilor producătorului ",
+        "is_correct": true
+      },
+      {
+        "text": " Dezinfecție minimă pentru piele intactă ",
+        "is_correct": true
+      },
+      {
+        "text": " Procesare superioară pentru risc crescut ",
+        "is_correct": true
+      },
+      {
+        "text": "Ignorarea producătorului ",
+        "is_correct": false
+      },
+      {
+        "text": "Lipsa curățării ",
+        "is_correct": false
+      },
+      {
+        "text": " Reutilizare necontrolată ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără dezinfecție ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără evaluare risc ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați regulile pentru soluții:",
+    "answers": [
+      {
+        "text": "Preparare corectă ",
+        "is_correct": true
+      },
+      {
+        "text": "Utilizare imediată (max. 48h) dupa preparare",
+        "is_correct": true
+      },
+      {
+        "text": "Etichetare corectă ",
+        "is_correct": true
+      },
+      {
+        "text": " Respectarea instrucțiunilor producătorului ",
+        "is_correct": true
+      },
+      {
+        "text": "Utilizarea cantității necesare ",
+        "is_correct": true
+      },
+      {
+        "text": " Păstrare nelimitată ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără etichetare ",
+        "is_correct": false
+      },
+      {
+        "text": " Concentrație aleatorie ",
+        "is_correct": false
+      },
+      {
+        "text": " Amestecare ",
+        "is_correct": false
+      },
+      {
+        "text": " Utilizare după expirare ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați afirmatiile corecte:",
+    "answers": [
+      {
+        "text": "Dezinfecția corectă implică curățare prealabilă ",
+        "is_correct": true
+      },
+      {
+        "text": "Alegerea produsului este esențială ",
+        "is_correct": true
+      },
+      {
+        "text": " Respectarea timpului de contact este obligatorie ",
+        "is_correct": true
+      },
+      {
+        "text": " Trasabilitatea este necesară ",
+        "is_correct": true
+      },
+      {
+        "text": "Instruirea personalului este esențială ",
+        "is_correct": true
+      },
+      {
+        "text": " Dezinfecția este opțională ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu există risc infecțios ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu este necesară documentarea ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu sunt necesare reguli ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu este necesară instruirea ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați afirmațiile corecte privind sterilizarea:",
+    "answers": [
+      {
+        "text": " Reprezintă nivelul maxim de reprocesare ",
+        "is_correct": true
+      },
+      {
+        "text": "Distruge toate microorganismele, inclusiv sporii ",
+        "is_correct": true
+      },
+      {
+        "text": " Este proces validat și controlat ",
+        "is_correct": true
+      },
+      {
+        "text": " Se aplică instrumentarului critic reutilizabil ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită monitorizare și control riguros ",
+        "is_correct": true
+      },
+      {
+        "text": " Este echivalentă cu curățarea ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu elimină sporii ",
+        "is_correct": false
+      },
+      {
+        "text": " Este opțională ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită control ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are importanță clinică ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați afirmațiile corecte privind indicațiile sterilizării:",
+    "answers": [
+      {
+        "text": "Este obligatorie pentru dispozitive critice ",
+        "is_correct": true
+      },
+      {
+        "text": "Se aplică instrumentelor care penetrează țesuturi sterile ",
+        "is_correct": true
+      },
+      {
+        "text": " Se aplică instrumentelorcare patrund in  sistemul vascular ",
+        "is_correct": true
+      },
+      {
+        "text": " Pentru zone semicritice depinde de risc și producător ",
+        "is_correct": true
+      },
+      {
+        "text": "Este necesară pentru prevenirea infecțiilor ",
+        "is_correct": true
+      },
+      {
+        "text": " Se aplică tuturor suprafețelor ",
+        "is_correct": false
+      },
+      {
+        "text": " Se aplică mobilierului ",
+        "is_correct": false
+      },
+      {
+        "text": "Este inutilă ",
+        "is_correct": false
+      },
+      {
+        "text": " Se aplică fără evaluare ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are rol preventiv ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați regula-cheie a sterilizării:",
+    "answers": [
+      {
+        "text": " Curățarea precede sterilizarea ",
+        "is_correct": true
+      },
+      {
+        "text": "Instrumentele trebuie să fie curate ",
+        "is_correct": true
+      },
+      {
+        "text": " Materia organică reduce eficiența sterilizării ",
+        "is_correct": true
+      },
+      {
+        "text": " Instrumentele murdare nu pot fi considerate sterile ",
+        "is_correct": true
+      },
+      {
+        "text": " Curățarea este etapă obligatorie ",
+        "is_correct": true
+      },
+      {
+        "text": " Curățarea este opțională ",
+        "is_correct": false
+      },
+      {
+        "text": " Se sterilizează fără curățare ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu contează murdăria ",
+        "is_correct": false
+      },
+      {
+        "text": "Se poate omite curățarea ",
+        "is_correct": false
+      },
+      {
+        "text": " Curățarea nu influențează sterilizarea ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați instrumentele care NU se sterilizează de regulă în audiologie:",
+    "answers": [
+      {
+        "text": "Căști audiometru ",
+        "is_correct": true
+      },
+      {
+        "text": "Vibratoare osoase ",
+        "is_correct": true
+      },
+      {
+        "text": "Tastaturi ",
+        "is_correct": true
+      },
+      {
+        "text": " Suprafețe echipamente ",
+        "is_correct": true
+      },
+      {
+        "text": " Mobilier ",
+        "is_correct": true
+      },
+      {
+        "text": " Endoscoape ",
+        "is_correct": false
+      },
+      {
+        "text": " Laringoscoape ",
+        "is_correct": false
+      },
+      {
+        "text": " Tuburi endotraheale ",
+        "is_correct": false
+      },
+      {
+        "text": " Instrumente chirurgicale ",
+        "is_correct": false
+      },
+      {
+        "text": " Dispozitive critice ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați clasificarea instrumentarului după risc:",
+    "answers": [
+      {
+        "text": " Critic ",
+        "is_correct": true
+      },
+      {
+        "text": " Semicritic ",
+        "is_correct": true
+      },
+      {
+        "text": " Noncritic ",
+        "is_correct": true
+      },
+      {
+        "text": " Clasificarea determină metoda de procesare ",
+        "is_correct": true
+      },
+      {
+        "text": " Clasificarea se bazează pe utilizare ",
+        "is_correct": true
+      },
+      {
+        "text": " Clasificare estetică ",
+        "is_correct": false
+      },
+      {
+        "text": "Clasificare după culoare ",
+        "is_correct": false
+      },
+      {
+        "text": " Clasificare după dimensiune ",
+        "is_correct": false
+      },
+      {
+        "text": " Clasificare administrativă ",
+        "is_correct": false
+      },
+      {
+        "text": " Clasificare arbitrară ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați caracteristicile instrumentelor critice:",
+    "answers": [
+      {
+        "text": " Penetrează țesuturi sterile ",
+        "is_correct": true
+      },
+      {
+        "text": " Intră în sistem vascular ",
+        "is_correct": true
+      },
+      {
+        "text": "Necesită sterilizare obligatorie ",
+        "is_correct": true
+      },
+      {
+        "text": " Prezintă risc maxim de infecție ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită control riguros ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită doar curățare ",
+        "is_correct": false
+      },
+      {
+        "text": " Sunt necritice ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu prezintă risc ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită sterilizare ",
+        "is_correct": false
+      },
+      {
+        "text": " Sunt externe ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile instrumentelor semicritice:",
+    "answers": [
+      {
+        "text": "Intră în contact cu mucoasele ",
+        "is_correct": true
+      },
+      {
+        "text": "Pot necesita sterilizare ",
+        "is_correct": true
+      },
+      {
+        "text": " Pot necesita dezinfecție de nivel înalt ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită evaluare de risc ",
+        "is_correct": true
+      },
+      {
+        "text": " Depind de instrucțiunile producătorului ",
+        "is_correct": true
+      },
+      {
+        "text": " Nu necesită procesare ",
+        "is_correct": false
+      },
+      {
+        "text": " Sunt sterile ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu prezintă risc ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită control ",
+        "is_correct": false
+      },
+      {
+        "text": " Sunt decorative ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile instrumentelor noncritice:",
+    "answers": [
+      {
+        "text": " Ating pielea intactă ",
+        "is_correct": true
+      },
+      {
+        "text": "Nu necesită sterilizare ",
+        "is_correct": true
+      },
+      {
+        "text": "Necesită curățare și dezinfecție ",
+        "is_correct": true
+      },
+      {
+        "text": " Au risc scăzut ",
+        "is_correct": true
+      },
+      {
+        "text": " Se procesează conform riscului ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită sterilizare ",
+        "is_correct": false
+      },
+      {
+        "text": " Penetrează țesuturi ",
+        "is_correct": false
+      },
+      {
+        "text": " Sunt critice ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită curățare ",
+        "is_correct": false
+      },
+      {
+        "text": " Sunt invazive ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați metodele fizice de sterilizare:",
+    "answers": [
+      {
+        "text": " Abur sub presiune ",
+        "is_correct": true
+      },
+      {
+        "text": " Căldură uscată ",
+        "is_correct": true
+      },
+      {
+        "text": " Temperatură controlată ",
+        "is_correct": true
+      },
+      {
+        "text": " Parametri controlați (timp, presiune) ",
+        "is_correct": true
+      },
+      {
+        "text": "Aplicare în funcție de material ",
+        "is_correct": true
+      },
+      {
+        "text": "Detergenți ",
+        "is_correct": false
+      },
+      {
+        "text": "Pulverizare ",
+        "is_correct": false
+      },
+      {
+        "text": " Imersie ",
+        "is_correct": false
+      },
+      {
+        "text": " Curățare ",
+        "is_correct": false
+      },
+      {
+        "text": " Spălare ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați metodele fizico-chimice:",
+    "answers": [
+      {
+        "text": " Oxid de etilenă ",
+        "is_correct": true
+      },
+      {
+        "text": " Formaldehidă ",
+        "is_correct": true
+      },
+      {
+        "text": " Peroxid de hidrogen (plasmă) ",
+        "is_correct": true
+      },
+      {
+        "text": "Vapori chimici ",
+        "is_correct": true
+      },
+      {
+        "text": "Temperatură joasă controlată ",
+        "is_correct": true
+      },
+      {
+        "text": " Apă ",
+        "is_correct": false
+      },
+      {
+        "text": " Aer ",
+        "is_correct": false
+      },
+      {
+        "text": " Detergenți ",
+        "is_correct": false
+      },
+      {
+        "text": "Lavete ",
+        "is_correct": false
+      },
+      {
+        "text": "Soluții alimentare ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile sterilizării cu abur:",
+    "answers": [
+      {
+        "text": " Eficientă ",
+        "is_correct": true
+      },
+      {
+        "text": " Rapidă ",
+        "is_correct": true
+      },
+      {
+        "text": " Economică ",
+        "is_correct": true
+      },
+      {
+        "text": " Penetrare bună ",
+        "is_correct": true
+      },
+      {
+        "text": "Recomandată pentru instrumente metalice ",
+        "is_correct": true
+      },
+      {
+        "text": " Pentru materiale termosensibile ",
+        "is_correct": false
+      },
+      {
+        "text": "Fără limitări ",
+        "is_correct": false
+      },
+      {
+        "text": " Ineficientă ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără control ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără parametri ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile sterilizării cu plasmă/peroxid:",
+    "answers": [
+      {
+        "text": " Temperatură joasă ",
+        "is_correct": true
+      },
+      {
+        "text": " Potrivită pentru materiale sensibile ",
+        "is_correct": true
+      },
+      {
+        "text": "Compatibilitate limitată ",
+        "is_correct": true
+      },
+      {
+        "text": " Cost mai ridicat ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită condiții speciale ",
+        "is_correct": true
+      },
+      {
+        "text": "Este ieftină ",
+        "is_correct": false
+      },
+      {
+        "text": " Este universală ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are limitări ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu necesită control ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu este utilizată ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile oxidului de etilenă:",
+    "answers": [
+      {
+        "text": " Utilizare limitată ",
+        "is_correct": true
+      },
+      {
+        "text": "Necesită măsuri stricte de siguranță ",
+        "is_correct": true
+      },
+      {
+        "text": "Necesită aerare post-proces ",
+        "is_correct": true
+      },
+      {
+        "text": "Nu este metodă uzuală ",
+        "is_correct": true
+      },
+      {
+        "text": " Se aplică în condiții speciale ",
+        "is_correct": true
+      },
+      {
+        "text": "Este metodă standard ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită siguranță ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită aerare ",
+        "is_correct": false
+      },
+      {
+        "text": " Este utilizată frecvent ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are limitări ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați etapele sterilizării:",
+    "answers": [
+      {
+        "text": " Colectare ",
+        "is_correct": true
+      },
+      {
+        "text": " Curățare ",
+        "is_correct": true
+      },
+      {
+        "text": " Uscare ",
+        "is_correct": true
+      },
+      {
+        "text": " Ambalare ",
+        "is_correct": true
+      },
+      {
+        "text": "Sterilizare propriu-zisă ",
+        "is_correct": true
+      },
+      {
+        "text": " Ignorare ",
+        "is_correct": false
+      },
+      {
+        "text": " Aplicare directă",
+        "is_correct": false
+      },
+      {
+        "text": " Fără curățare ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără ambalare ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără control ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați etapele finale pt sterilizare:",
+    "answers": [
+      {
+        "text": " Eliberare șarjă ",
+        "is_correct": true
+      },
+      {
+        "text": " Depozitare corectă ",
+        "is_correct": true
+      },
+      {
+        "text": " Control parametri ",
+        "is_correct": true
+      },
+      {
+        "text": " Verificare ambalaj ",
+        "is_correct": true
+      },
+      {
+        "text": "Trasabilitate ",
+        "is_correct": true
+      },
+      {
+        "text": " Utilizare fără verificare ",
+        "is_correct": false
+      },
+      {
+        "text": "Fără depozitare ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără control ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără evidență ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără verificare ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați indicatorii de control utilizati la sterilizare:",
+    "answers": [
+      {
+        "text": "Indicatori fizici ",
+        "is_correct": true
+      },
+      {
+        "text": " Indicatori chimici",
+        "is_correct": true
+      },
+      {
+        "text": "Indicatori biologici ",
+        "is_correct": true
+      },
+      {
+        "text": " Monitorizare completă ",
+        "is_correct": true
+      },
+      {
+        "text": " Evaluare proces ",
+        "is_correct": true
+      },
+      {
+        "text": "Fără indicatori ",
+        "is_correct": false
+      },
+      {
+        "text": "Indicator vizual ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără control ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără monitorizare ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără verificare ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați indicatorii chimici utilizati in starilizare abur:",
+    "answers": [
+      {
+        "text": "Tip 1 (extern) ",
+        "is_correct": true
+      },
+      {
+        "text": " Tip 2 (Bowie-Dick/Helix) ",
+        "is_correct": true
+      },
+      {
+        "text": "Tip 4 (multiparametru) ",
+        "is_correct": true
+      },
+      {
+        "text": "Tip 5 (integrator) ",
+        "is_correct": true
+      },
+      {
+        "text": " Utilizați în ambalaj ",
+        "is_correct": true
+      },
+      {
+        "text": " Indicatori biologici ",
+        "is_correct": false
+      },
+      {
+        "text": "Indicatori fizici ",
+        "is_correct": false
+      },
+      {
+        "text": " Indicatori vizuali",
+        "is_correct": false
+      },
+      {
+        "text": " Indicatori auditivi ",
+        "is_correct": false
+      },
+      {
+        "text": "Indicatori decorativi ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați cerințele de trasabilitate sterilizare:",
+    "answers": [
+      {
+        "text": " Cod instrument/trusă ",
+        "is_correct": true
+      },
+      {
+        "text": " Număr șarjă ",
+        "is_correct": true
+      },
+      {
+        "text": "Data procesului ",
+        "is_correct": true
+      },
+      {
+        "text": "Operator responsabil ",
+        "is_correct": true
+      },
+      {
+        "text": "Legătura cu pacientul ",
+        "is_correct": true
+      },
+      {
+        "text": " Fără cod ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără evidență ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără operator ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără documentare ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără trasabilitate ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați condițiile de depozitare instrumentar sterilizat:",
+    "answers": [
+      {
+        "text": "Spațiu dedicat ",
+        "is_correct": true
+      },
+      {
+        "text": " Temperatură controlată (18–22°C) ",
+        "is_correct": true
+      },
+      {
+        "text": " Umiditate controlată (35–70%) ",
+        "is_correct": true
+      },
+      {
+        "text": " Protecție față de lumină și insecte ",
+        "is_correct": true
+      },
+      {
+        "text": "Integritate ambalaj ",
+        "is_correct": true
+      },
+      {
+        "text": "Spațiu deschis ",
+        "is_correct": false
+      },
+      {
+        "text": " Temperatură variabilă",
+        "is_correct": false
+      },
+      {
+        "text": " Fără control ",
+        "is_correct": false
+      },
+      {
+        "text": " Expunere la lumină ",
+        "is_correct": false
+      },
+      {
+        "text": " Ambalaj deteriorat ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați regulile de manipulare in sterilizare:",
+    "answers": [
+      {
+        "text": " Manipulare minimă ",
+        "is_correct": true
+      },
+      {
+        "text": " Verificare ambalaj ",
+        "is_correct": true
+      },
+      {
+        "text": " Verificare termen valabilitate ",
+        "is_correct": true
+      },
+      {
+        "text": "Aplicare FIFO (primul intrat, primul ieșit)",
+        "is_correct": true
+      },
+      {
+        "text": " Menținere sterilitate ",
+        "is_correct": true
+      },
+      {
+        "text": "Manipulare excesivă ",
+        "is_correct": false
+      },
+      {
+        "text": " Ignorare ambalaj ",
+        "is_correct": false
+      },
+      {
+        "text": "Fără verificare ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără reguli ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără control ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați greșelile frecvente in activitate de sterilizare:",
+    "answers": [
+      {
+        "text": "Sterilizarea instrumentelor murdare ",
+        "is_correct": true
+      },
+      {
+        "text": " Supraîncărcarea sterilizatorului ",
+        "is_correct": true
+      },
+      {
+        "text": "Utilizarea ambalajelor deteriorate ",
+        "is_correct": true
+      },
+      {
+        "text": "Nerespectarea compatibilității ",
+        "is_correct": true
+      },
+      {
+        "text": " Lipsa documentării ",
+        "is_correct": true
+      },
+      {
+        "text": " Respectarea procedurilor ",
+        "is_correct": false
+      },
+      {
+        "text": " Controlul procesului ",
+        "is_correct": false
+      },
+      {
+        "text": " Monitorizarea indicatorilor ",
+        "is_correct": false
+      },
+      {
+        "text": "Trasabilitatea corectă ",
+        "is_correct": false
+      },
+      {
+        "text": " Respectarea instrucțiunilor ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați afirmatii corecte corecte:",
+    "answers": [
+      {
+        "text": " Sterilizarea necesită proces complet și controlat ",
+        "is_correct": true
+      },
+      {
+        "text": " Curățarea este obligatorie înainte de sterilizare ",
+        "is_correct": true
+      },
+      {
+        "text": " Trasabilitatea este esențială ",
+        "is_correct": true
+      },
+      {
+        "text": " Monitorizarea este obligatorie ",
+        "is_correct": true
+      },
+      {
+        "text": " Alegerea metodei depinde de risc și material ",
+        "is_correct": true
+      },
+      {
+        "text": " Sterilizarea este opțională ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită control ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită documentare ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu există risc ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită instruire ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați afirmațiile corecte privind igiena mâinilor:",
+    "answers": [
+      {
+        "text": " Este cea mai importantă măsură de prevenire a infecțiilor asociate îngrijirilor medicale ",
+        "is_correct": true
+      },
+      {
+        "text": "Reduce transmiterea microorganismelor ",
+        "is_correct": true
+      },
+      {
+        "text": " Este obligatorie pentru personalul medical ",
+        "is_correct": true
+      },
+      {
+        "text": " Face parte din procedurile standard de igienă ",
+        "is_correct": true
+      },
+      {
+        "text": " Protejează atât pacientul cât și personalul ",
+        "is_correct": true
+      },
+      {
+        "text": " Este opțională ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu influențează infecțiile ",
+        "is_correct": false
+      },
+      {
+        "text": " Se aplică doar în chirurgie ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu este necesară în cabinete ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are rol preventiv ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați afirmațiile incorecte privind igiena mâinilor:",
+    "answers": [
+      {
+        "text": " Este opțională ",
+        "is_correct": true
+      },
+      {
+        "text": " Nu influențează infecțiile ",
+        "is_correct": true
+      },
+      {
+        "text": " Se aplică doar în chirurgie ",
+        "is_correct": true
+      },
+      {
+        "text": " Nu este necesară în cabinete ",
+        "is_correct": true
+      },
+      {
+        "text": " Nu are rol preventiv ",
+        "is_correct": true
+      },
+      {
+        "text": " Este cea mai importantă măsură de prevenire a infecțiilor asociate îngrijirilor medicale ",
+        "is_correct": false
+      },
+      {
+        "text": "Reduce transmiterea microorganismelor ",
+        "is_correct": false
+      },
+      {
+        "text": " Este obligatorie pentru personalul medical ",
+        "is_correct": false
+      },
+      {
+        "text": " Face parte din procedurile standard de igienă ",
+        "is_correct": false
+      },
+      {
+        "text": " Protejează atât pacientul cât și personalul ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați tipurile de igienă a mâinilor:",
+    "answers": [
+      {
+        "text": " Spălare simplă ",
+        "is_correct": true
+      },
+      {
+        "text": " Spălare antiseptică ",
+        "is_correct": true
+      },
+      {
+        "text": " Dezinfecție prin frecare ",
+        "is_correct": true
+      },
+      {
+        "text": " Spălare chirurgicală ",
+        "is_correct": true
+      },
+      {
+        "text": " Igienă combinată (spălare + dezinfecție) ",
+        "is_correct": true
+      },
+      {
+        "text": " Spălare industrială ",
+        "is_correct": false
+      },
+      {
+        "text": "Spălare mecanică ",
+        "is_correct": false
+      },
+      {
+        "text": " Spălare cosmetică ",
+        "is_correct": false
+      },
+      {
+        "text": " Spălare tehnică ",
+        "is_correct": false
+      },
+      {
+        "text": " Spălare administrativă ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați tipurile de igienă care nu se aplica mainilor:",
+    "answers": [
+      {
+        "text": " Spălare industrială ",
+        "is_correct": true
+      },
+      {
+        "text": "Spălare mecanică ",
+        "is_correct": true
+      },
+      {
+        "text": " Spălare cosmetică ",
+        "is_correct": true
+      },
+      {
+        "text": " Spălare tehnică ",
+        "is_correct": true
+      },
+      {
+        "text": " Spălare administrativă ",
+        "is_correct": true
+      },
+      {
+        "text": " Spălare simplă ",
+        "is_correct": false
+      },
+      {
+        "text": " Spălare antiseptică ",
+        "is_correct": false
+      },
+      {
+        "text": " Dezinfecție prin frecare ",
+        "is_correct": false
+      },
+      {
+        "text": " Spălare chirurgicală ",
+        "is_correct": false
+      },
+      {
+        "text": " Igienă combinată (spălare + dezinfecție) ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați momentele când este obligatorie igiena mâinilor:",
+    "answers": [
+      {
+        "text": " Înainte de contactul cu pacientul ",
+        "is_correct": true
+      },
+      {
+        "text": " După contactul cu pacientul ",
+        "is_correct": true
+      },
+      {
+        "text": " După contactul cu fluide biologice ",
+        "is_correct": true
+      },
+      {
+        "text": " Înainte de proceduri aseptice ",
+        "is_correct": true
+      },
+      {
+        "text": " După contactul cu mediul pacientului ",
+        "is_correct": true
+      },
+      {
+        "text": " Doar la începutul zilei ",
+        "is_correct": false
+      },
+      {
+        "text": " Doar la finalul programului ",
+        "is_correct": false
+      },
+      {
+        "text": " Numai dacă mâinile sunt vizibil murdare ",
+        "is_correct": false
+      },
+      {
+        "text": " Doar în chirurgie ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu este necesară ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile corecte pentru spălarea simpla a mainilor:",
+    "answers": [
+      {
+        "text": "Îndepărtează murdăria vizibilă ",
+        "is_correct": true
+      },
+      {
+        "text": " Reduce flora tranzitorie ",
+        "is_correct": true
+      },
+      {
+        "text": " Se realizează cu apă și săpun ",
+        "is_correct": true
+      },
+      {
+        "text": " Este utilizată frecvent ",
+        "is_correct": true
+      },
+      {
+        "text": "Este necesară înainte de dezinfecție dacă mâinile sunt murdare ",
+        "is_correct": true
+      },
+      {
+        "text": " Elimină sporii ",
+        "is_correct": false
+      },
+      {
+        "text": " Este sterilizare ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu necesită apă ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are efect ",
+        "is_correct": false
+      },
+      {
+        "text": " Este inutilă",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile corecte spălării antiseptice:",
+    "answers": [
+      {
+        "text": "Utilizează săpun antiseptic ",
+        "is_correct": true
+      },
+      {
+        "text": " Reduce flora tranzitorie și parțial flora rezidentă ",
+        "is_correct": true
+      },
+      {
+        "text": "Este utilizată înainte de proceduri medicale ",
+        "is_correct": true
+      },
+      {
+        "text": " Are rol preventiv crescut ",
+        "is_correct": true
+      },
+      {
+        "text": "Necesită timp de contact adecvat ",
+        "is_correct": true
+      },
+      {
+        "text": " Este identică spălării simple ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are efect antimicrobian ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită produs antiseptic ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu necesită timp ",
+        "is_correct": false
+      },
+      {
+        "text": " Este opțională ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile dezinfecției prin frecare:",
+    "answers": [
+      {
+        "text": " Se realizează cu soluții hidroalcoolice ",
+        "is_correct": true
+      },
+      {
+        "text": " Este rapidă ",
+        "is_correct": true
+      },
+      {
+        "text": " Nu necesită apă ",
+        "is_correct": true
+      },
+      {
+        "text": " Este eficientă împotriva bacteriilor și virusurilor ",
+        "is_correct": true
+      },
+      {
+        "text": "Se aplică pe mâini curate",
+        "is_correct": true
+      },
+      {
+        "text": " Se aplică pe mâini murdare ",
+        "is_correct": false
+      },
+      {
+        "text": "Necesită clătire ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are efect ",
+        "is_correct": false
+      },
+      {
+        "text": " Este inutilă ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu este recomandată ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați etapele corecte ale spălării mâinilor:",
+    "answers": [
+      {
+        "text": " Umezirea mâinilor ",
+        "is_correct": true
+      },
+      {
+        "text": "Aplicarea săpunului ",
+        "is_correct": true
+      },
+      {
+        "text": " Frecarea suprafețelor mâinilor ",
+        "is_correct": true
+      },
+      {
+        "text": " Clătirea ",
+        "is_correct": true
+      },
+      {
+        "text": "Uscarea corectă ",
+        "is_correct": true
+      },
+      {
+        "text": " Ignorarea frecării ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără clătire ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără uscare",
+        "is_correct": false
+      },
+      {
+        "text": "Aplicare fără apă ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără săpun ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați zonele mainilor, care trebuie frecate:",
+    "answers": [
+      {
+        "text": " Palmele ",
+        "is_correct": true
+      },
+      {
+        "text": " Dosul mâinilor ",
+        "is_correct": true
+      },
+      {
+        "text": " Spațiile interdigitale ",
+        "is_correct": true
+      },
+      {
+        "text": " Degetele și unghiile ",
+        "is_correct": true
+      },
+      {
+        "text": " Policele și vârfurile degetelor ",
+        "is_correct": true
+      },
+      {
+        "text": " Doar palmele ",
+        "is_correct": false
+      },
+      {
+        "text": "Doar dosul mâinilor ",
+        "is_correct": false
+      },
+      {
+        "text": " Doar degetele",
+        "is_correct": false
+      },
+      {
+        "text": " Doar unghiile ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu este necesar ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați durata recomandată pentru spalare maini:",
+    "answers": [
+      {
+        "text": " Spălare simplă ≥20 secunde ",
+        "is_correct": true
+      },
+      {
+        "text": " Dezinfecție 20–30 secunde ",
+        "is_correct": true
+      },
+      {
+        "text": " Spălare antiseptică mai lungă decât simpla spălare ",
+        "is_correct": true
+      },
+      {
+        "text": " Durata influențează eficiența ",
+        "is_correct": true
+      },
+      {
+        "text": " Respectarea timpului este obligatorie ",
+        "is_correct": true
+      },
+      {
+        "text": " Durata nu contează ",
+        "is_correct": false
+      },
+      {
+        "text": " Se face rapid ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără timp minim ",
+        "is_correct": false
+      },
+      {
+        "text": " Este opțional ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu influențează eficiența ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați condițiile pentru dezinfecțiemaini  eficientă:",
+    "answers": [
+      {
+        "text": "Mâini curate și uscate ",
+        "is_correct": true
+      },
+      {
+        "text": "Cantitate suficientă de produs ",
+        "is_correct": true
+      },
+      {
+        "text": " Acoperirea completă a mâinilor ",
+        "is_correct": true
+      },
+      {
+        "text": " Respectarea timpului de contact ",
+        "is_correct": true
+      },
+      {
+        "text": " Frecare completă până la uscare ",
+        "is_correct": true
+      },
+      {
+        "text": " Aplicare pe mâini murdare ",
+        "is_correct": false
+      },
+      {
+        "text": "Cantitate mică ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără frecare ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără timp ",
+        "is_correct": false
+      },
+      {
+        "text": " Aplicare superficială ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați indicațiile spălării mainilor chirurgicale:",
+    "answers": [
+      {
+        "text": "Înainte de intervenții chirurgicale ",
+        "is_correct": true
+      },
+      {
+        "text": " Înainte de proceduri invazive majore ",
+        "is_correct": true
+      },
+      {
+        "text": " Reduce flora rezidentă ",
+        "is_correct": true
+      },
+      {
+        "text": " Se face cu produse antiseptice speciale ",
+        "is_correct": true
+      },
+      {
+        "text": " Este mai riguroasă decât spălarea obișnuită ",
+        "is_correct": true
+      },
+      {
+        "text": "Se aplică zilnic ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu este necesară ",
+        "is_correct": false
+      },
+      {
+        "text": "Este identică spălării simple ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are rol ",
+        "is_correct": false
+      },
+      {
+        "text": "Este opțională ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați factorii care influențează eficiența spalarii mainilor:",
+    "answers": [
+      {
+        "text": " Tipul produsului utilizat pentru spalare",
+        "is_correct": true
+      },
+      {
+        "text": "Timpul de aplicare ",
+        "is_correct": true
+      },
+      {
+        "text": "Tehnica spalarii corectă ",
+        "is_correct": true
+      },
+      {
+        "text": " Gradul de murdărie al mainilor",
+        "is_correct": true
+      },
+      {
+        "text": "Respectarea procedurii ",
+        "is_correct": true
+      },
+      {
+        "text": " Culoarea săpunului ",
+        "is_correct": false
+      },
+      {
+        "text": " Ambalajul săpunului",
+        "is_correct": false
+      },
+      {
+        "text": " Mirosul săpunului",
+        "is_correct": false
+      },
+      {
+        "text": "Marca săpunului",
+        "is_correct": false
+      },
+      {
+        "text": " Publicitatea ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați echipamentele necesare pentru spalare maini:",
+    "answers": [
+      {
+        "text": "Chiuvetă funcțională ",
+        "is_correct": true
+      },
+      {
+        "text": "Săpun lichid ",
+        "is_correct": true
+      },
+      {
+        "text": " Dezinfectant hidroalcoolic ",
+        "is_correct": true
+      },
+      {
+        "text": "Prosoape de unică folosință ",
+        "is_correct": true
+      },
+      {
+        "text": "Coș pentru deșeuri ",
+        "is_correct": true
+      },
+      {
+        "text": "Lavete textile reutilizate ",
+        "is_correct": false
+      },
+      {
+        "text": "Lipsa săpunului ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa apei ",
+        "is_correct": false
+      },
+      {
+        "text": " Prosoape comune ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa coșului ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați reguli de bază corecte:",
+    "answers": [
+      {
+        "text": " Unghiile scurte și curate ",
+        "is_correct": true
+      },
+      {
+        "text": " Fără bijuterii ",
+        "is_correct": true
+      },
+      {
+        "text": " Fără lac de unghii deteriorat ",
+        "is_correct": true
+      },
+      {
+        "text": "Piele intactă ",
+        "is_correct": true
+      },
+      {
+        "text": " Respectarea igienei personale ",
+        "is_correct": true
+      },
+      {
+        "text": " Unghii lungi ",
+        "is_correct": false
+      },
+      {
+        "text": "Bijuterii ",
+        "is_correct": false
+      },
+      {
+        "text": " Unghii false ",
+        "is_correct": false
+      },
+      {
+        "text": " Leziuni neprotejate ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa igienei ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați erori frecvente ale spalarii mainilor:",
+    "answers": [
+      {
+        "text": " Spălare insuficientă ",
+        "is_correct": true
+      },
+      {
+        "text": " Nerespectarea timpului ",
+        "is_correct": true
+      },
+      {
+        "text": " Omisiunea unor zone ",
+        "is_correct": true
+      },
+      {
+        "text": " Utilizarea incorectă a produsului ",
+        "is_correct": true
+      },
+      {
+        "text": " Aplicarea pe mâini murdare ",
+        "is_correct": true
+      },
+      {
+        "text": " Respectarea procedurii ",
+        "is_correct": false
+      },
+      {
+        "text": " Acoperirea completă a mainilor",
+        "is_correct": false
+      },
+      {
+        "text": " Respectarea timpului ",
+        "is_correct": false
+      },
+      {
+        "text": " Utilizarea corectă ",
+        "is_correct": false
+      },
+      {
+        "text": "Tehnică adecvată ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați rolul correct al igienei mâinilor:",
+    "answers": [
+      {
+        "text": "Prevenirea infecțiilor ",
+        "is_correct": true
+      },
+      {
+        "text": "Protecția pacientului ",
+        "is_correct": true
+      },
+      {
+        "text": " Protecția personalului ",
+        "is_correct": true
+      },
+      {
+        "text": " Reducerea contaminării încrucișate ",
+        "is_correct": true
+      },
+      {
+        "text": "Siguranță medicală crescută ",
+        "is_correct": true
+      },
+      {
+        "text": "Nu are rol ",
+        "is_correct": false
+      },
+      {
+        "text": "Este opțională ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu influențează ",
+        "is_correct": false
+      },
+      {
+        "text": "Este inutilă ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu este necesară ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați când se utilizează dezinfecția mainilor:",
+    "answers": [
+      {
+        "text": "Mâini curate ",
+        "is_correct": true
+      },
+      {
+        "text": "Între pacienți ",
+        "is_correct": true
+      },
+      {
+        "text": "După proceduri neinvazive ",
+        "is_correct": true
+      },
+      {
+        "text": "Când nu există murdărie vizibilă ",
+        "is_correct": true
+      },
+      {
+        "text": " În situații rapide ",
+        "is_correct": true
+      },
+      {
+        "text": "Mâini murdare ",
+        "is_correct": false
+      },
+      {
+        "text": "După contaminare vizibilă ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără necesitate ",
+        "is_correct": false
+      },
+      {
+        "text": " Oricând fără reguli ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără indicație ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați când este obligatorie spălarea mainilor:",
+    "answers": [
+      {
+        "text": " Mâini vizibil murdare ",
+        "is_correct": true
+      },
+      {
+        "text": " După contact cu fluide biologice ",
+        "is_correct": true
+      },
+      {
+        "text": " După utilizarea toaletei ",
+        "is_correct": true
+      },
+      {
+        "text": "Înainte de masă ",
+        "is_correct": true
+      },
+      {
+        "text": " După îndepărtarea mănușilor dacă există contaminare ",
+        "is_correct": true
+      },
+      {
+        "text": " Mâini curate ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără contact ",
+        "is_correct": false
+      },
+      {
+        "text": "Fără contaminare ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără necesitate ",
+        "is_correct": false
+      },
+      {
+        "text": " Este opțională ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați rolul uscării mâinilor:",
+    "answers": [
+      {
+        "text": "Previne recontaminarea ",
+        "is_correct": true
+      },
+      {
+        "text": " Este parte a procedurii ",
+        "is_correct": true
+      },
+      {
+        "text": " Reduce multiplicarea bacteriană ",
+        "is_correct": true
+      },
+      {
+        "text": " Se face cu materiale de unică folosință ",
+        "is_correct": true
+      },
+      {
+        "text": " Este obligatorie ",
+        "is_correct": true
+      },
+      {
+        "text": " Nu este necesară ",
+        "is_correct": false
+      },
+      {
+        "text": "Se face pe haine ",
+        "is_correct": false
+      },
+      {
+        "text": " Se omite ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu influențează ",
+        "is_correct": false
+      },
+      {
+        "text": " Este opțională ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile produselor hidroalcoolice:",
+    "answers": [
+      {
+        "text": " Acțiune rapidă ",
+        "is_correct": true
+      },
+      {
+        "text": " Spectru larg antimicrobian ",
+        "is_correct": true
+      },
+      {
+        "text": "Ușor de utilizat ",
+        "is_correct": true
+      },
+      {
+        "text": "Nu necesită apă ",
+        "is_correct": true
+      },
+      {
+        "text": " Disponibile în dispensere ",
+        "is_correct": true
+      },
+      {
+        "text": " Ineficiente ",
+        "is_correct": false
+      },
+      {
+        "text": " Necesită clătire ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu au spectru ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu sunt utilizate ",
+        "is_correct": false
+      },
+      {
+        "text": "Sunt inutile ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați cerințele de instruire:",
+    "answers": [
+      {
+        "text": "Personalul trebuie instruit periodic ",
+        "is_correct": true
+      },
+      {
+        "text": " Procedurile trebuie cunoscute ",
+        "is_correct": true
+      },
+      {
+        "text": " Tehnica trebuie demonstrată ",
+        "is_correct": true
+      },
+      {
+        "text": " Se verifică conformitatea ",
+        "is_correct": true
+      },
+      {
+        "text": "Educația continuă este necesară ",
+        "is_correct": true
+      },
+      {
+        "text": " Nu este necesară instruirea ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără proceduri ",
+        "is_correct": false
+      },
+      {
+        "text": "Fără evaluare ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără control ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără responsabilitate ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați afirmatiile  corecte:",
+    "answers": [
+      {
+        "text": "Igiena mâinilor este esențială în prevenirea infecțiilor ",
+        "is_correct": true
+      },
+      {
+        "text": " Respectarea tehnicii este obligatorie ",
+        "is_correct": true
+      },
+      {
+        "text": " Alegerea metodei depinde de situație ",
+        "is_correct": true
+      },
+      {
+        "text": "Timpul și produsul influențează eficiența ",
+        "is_correct": true
+      },
+      {
+        "text": "Instruirea personalului este esențială ",
+        "is_correct": true
+      },
+      {
+        "text": "Igiena este opțională ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu există reguli ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu este necesară instruirea ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu influențează infecțiile ",
+        "is_correct": false
+      },
+      {
+        "text": "Este inutilă",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați afirmațiile corecte privind igiena:",
+    "answers": [
+      {
+        "text": " Este ramura medicinei preventive ",
+        "is_correct": true
+      },
+      {
+        "text": "Studiază relația dintre mediu și sănătate ",
+        "is_correct": true
+      },
+      {
+        "text": " Propune măsuri de prevenire a îmbolnăvirilor ",
+        "is_correct": true
+      },
+      {
+        "text": " Are rol esențial în sănătatea publică ",
+        "is_correct": true
+      },
+      {
+        "text": "Este orientată spre prevenție ",
+        "is_correct": true
+      },
+      {
+        "text": "Este ramură chirurgicală ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu are rol preventiv ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu studiază mediul ",
+        "is_correct": false
+      },
+      {
+        "text": " Este disciplină tehnică ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu are aplicabilitate medicală ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați afirmațiile corecte privind epidemiologia:",
+    "answers": [
+      {
+        "text": "Studiază distribuția bolilor în populație",
+        "is_correct": true
+      },
+      {
+        "text": "Analizează frecvența bolilor ✅",
+        "is_correct": true
+      },
+      {
+        "text": " Identifică determinanții bolilor ",
+        "is_correct": true
+      },
+      {
+        "text": " Contribuie la prevenție și control ",
+        "is_correct": true
+      },
+      {
+        "text": " Se aplică populațiilor umane ",
+        "is_correct": true
+      },
+      {
+        "text": " Se ocupă doar de tratament ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu studiază populații ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are rol preventiv ",
+        "is_correct": false
+      },
+      {
+        "text": " Este disciplină exclusiv clinică ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are aplicabilitate",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați componentele lanțului epidemiologic:",
+    "answers": [
+      {
+        "text": " Agent etiologic ",
+        "is_correct": true
+      },
+      {
+        "text": "Rezervor ",
+        "is_correct": true
+      },
+      {
+        "text": " Poartă de eliminare ",
+        "is_correct": true
+      },
+      {
+        "text": " Cale de transmitere ",
+        "is_correct": true
+      },
+      {
+        "text": "Gazdă receptivă ",
+        "is_correct": true
+      },
+      {
+        "text": "Tratament ",
+        "is_correct": false
+      },
+      {
+        "text": " Diagnostic ",
+        "is_correct": false
+      },
+      {
+        "text": " Prognostic ",
+        "is_correct": false
+      },
+      {
+        "text": "Terapie ",
+        "is_correct": false
+      },
+      {
+        "text": "Recuperare ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați afirmațiile corecte despre lanțul epidemiologic:",
+    "answers": [
+      {
+        "text": " Este o succesiune logică de elemente ",
+        "is_correct": true
+      },
+      {
+        "text": " Este necesar pentru apariția infecției ",
+        "is_correct": true
+      },
+      {
+        "text": "Include mai multe verigi interdependente ",
+        "is_correct": true
+      },
+      {
+        "text": " Poate fi întrerupt pentru prevenție ",
+        "is_correct": true
+      },
+      {
+        "text": "Este utilizat în epidemiologie aplicată ",
+        "is_correct": true
+      },
+      {
+        "text": "Este independent ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu are logică ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu poate fi controlat ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are aplicabilitate ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu influențează infecțiile ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați particularitățile cabinetului audiologic:",
+    "answers": [
+      {
+        "text": "Contact apropiat cu pacientul ",
+        "is_correct": true
+      },
+      {
+        "text": " Manipularea conductului auditiv ",
+        "is_correct": true
+      },
+      {
+        "text": "Utilizarea repetată a accesoriilor ",
+        "is_correct": true
+      },
+      {
+        "text": " Spații închise (cabine audiometrice) ",
+        "is_correct": true
+      },
+      {
+        "text": " Risc de contaminare crescut ",
+        "is_correct": true
+      },
+      {
+        "text": " Lipsa contactului ",
+        "is_correct": false
+      },
+      {
+        "text": "Spații deschise ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa accesoriilor ",
+        "is_correct": false
+      },
+      {
+        "text": "Fără risc ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără manipulare ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați riscurile principale in cabinet:",
+    "answers": [
+      {
+        "text": " Contaminare încrucișată ",
+        "is_correct": true
+      },
+      {
+        "text": " Transmitere prin contact direct ",
+        "is_correct": true
+      },
+      {
+        "text": " Colonizare bacteriană ",
+        "is_correct": true
+      },
+      {
+        "text": "Infecții recurente ",
+        "is_correct": true
+      },
+      {
+        "text": " Persistența microorganismelor ",
+        "is_correct": true
+      },
+      {
+        "text": " Lipsa riscului ",
+        "is_correct": false
+      },
+      {
+        "text": " Risc zero ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu există contaminare ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu există bacterii ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu există transmitere ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile biofilmului:",
+    "answers": [
+      {
+        "text": " Comunitate organizată de microorganisme ",
+        "is_correct": true
+      },
+      {
+        "text": "Aderă la suprafețe ",
+        "is_correct": true
+      },
+      {
+        "text": " Are matrice extracelulară protectoare ",
+        "is_correct": true
+      },
+      {
+        "text": " Este rezistent la antibiotice ",
+        "is_correct": true
+      },
+      {
+        "text": " Este rezistent la dezinfectanți insuficienți ",
+        "is_correct": true
+      },
+      {
+        "text": " Este ușor eliminat ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu aderă ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu are protecție",
+        "is_correct": false
+      },
+      {
+        "text": "Nu rezistă ",
+        "is_correct": false
+      },
+      {
+        "text": " Este inofensiv ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile biofilmului pe proteze:",
+    "answers": [
+      {
+        "text": " Expunere la umiditate ",
+        "is_correct": true
+      },
+      {
+        "text": " Contact cu cerumen ",
+        "is_correct": true
+      },
+      {
+        "text": " Contact cu microbiotă ",
+        "is_correct": true
+      },
+      {
+        "text": " Utilizare îndelungată ",
+        "is_correct": true
+      },
+      {
+        "text": "Risc de colonizare bacteriană ",
+        "is_correct": true
+      },
+      {
+        "text": "Lipsa contaminării ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu există biofilm ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu există microbi ",
+        "is_correct": false
+      },
+      {
+        "text": "Utilizare scurtă ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu există risc ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați consecințele biofilmului:",
+    "answers": [
+      {
+        "text": " Infecții recurente ",
+        "is_correct": true
+      },
+      {
+        "text": "Inflamație cronică ",
+        "is_correct": true
+      },
+      {
+        "text": "Disconfort ",
+        "is_correct": true
+      },
+      {
+        "text": "Miros neplăcut ",
+        "is_correct": true
+      },
+      {
+        "text": "Prurit auricular ",
+        "is_correct": true
+      },
+      {
+        "text": " Lipsa simptomelor ",
+        "is_correct": false
+      },
+      {
+        "text": "Fără efect ",
+        "is_correct": false
+      },
+      {
+        "text": "Beneficii ",
+        "is_correct": false
+      },
+      {
+        "text": "Vindecare ",
+        "is_correct": false
+      },
+      {
+        "text": "Lipsa disconfortului ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați măsurile de prevenție:",
+    "answers": [
+      {
+        "text": "Curățare mecanică ",
+        "is_correct": true
+      },
+      {
+        "text": "Uscare completă ",
+        "is_correct": true
+      },
+      {
+        "text": " Dezinfecție adecvată ",
+        "is_correct": true
+      },
+      {
+        "text": " Depozitare corectă ",
+        "is_correct": true
+      },
+      {
+        "text": " Îndepărtarea materiei organice ",
+        "is_correct": true
+      },
+      {
+        "text": " Ignorare ",
+        "is_correct": false
+      },
+      {
+        "text": "Fără curățare ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără dezinfecție ",
+        "is_correct": false
+      },
+      {
+        "text": "Fără uscare ",
+        "is_correct": false
+      },
+      {
+        "text": "Fără control ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile curățării:",
+    "answers": [
+      {
+        "text": "Îndepărtează murdăria organică ",
+        "is_correct": true
+      },
+      {
+        "text": " Este etapă obligatorie ",
+        "is_correct": true
+      },
+      {
+        "text": " Include spălare și clătire ",
+        "is_correct": true
+      },
+      {
+        "text": " Poate utiliza detergent enzimatic ",
+        "is_correct": true
+      },
+      {
+        "text": " Precede dezinfecția ",
+        "is_correct": true
+      },
+      {
+        "text": "Este opțională ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are rol ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu îndepărtează murdăria ",
+        "is_correct": false
+      },
+      {
+        "text": " Este sterilizare ",
+        "is_correct": false
+      },
+      {
+        "text": " Este inutilă",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați rolul cerumenului:",
+    "answers": [
+      {
+        "text": " Sursă de contaminare organică ",
+        "is_correct": true
+      },
+      {
+        "text": " Barieră pentru dezinfectant dacă nu este îndepărtat ",
+        "is_correct": true
+      },
+      {
+        "text": " Favorizează persistența bacteriilor ",
+        "is_correct": true
+      },
+      {
+        "text": " Necesită îndepărtare mecanică ",
+        "is_correct": true
+      },
+      {
+        "text": "Influentează eficiența dezinfecției ",
+        "is_correct": true
+      },
+      {
+        "text": " Nu are rol ",
+        "is_correct": false
+      },
+      {
+        "text": " Este steril ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu influențează ",
+        "is_correct": false
+      },
+      {
+        "text": " Este benefic ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu trebuie îndepărtat ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectațiafirmatii corecte legate de  compatibilitatea materialelor:",
+    "answers": [
+      {
+        "text": "Nu toate materialele suportă dezinfectanți ",
+        "is_correct": true
+      },
+      {
+        "text": "Dezinfectanții pot degrada plasticul ",
+        "is_correct": true
+      },
+      {
+        "text": " Dezinfectanți pot afecta componentele electronice ",
+        "is_correct": true
+      },
+      {
+        "text": " Dezinfectanți pot reduce durata de viață a dispozitivelor ",
+        "is_correct": true
+      },
+      {
+        "text": "Necesită respectarea producătorului ",
+        "is_correct": true
+      },
+      {
+        "text": " Nu există compatibilitate ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu afectează nimic ",
+        "is_correct": false
+      },
+      {
+        "text": " Sunt universali ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu contează materialul ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu există restricții ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați managementul instrumentarului:",
+    "answers": [
+      {
+        "text": " Circuit contaminat-curat ",
+        "is_correct": true
+      },
+      {
+        "text": "Separare fizică a etapelor ",
+        "is_correct": true
+      },
+      {
+        "text": " Utilizare recipiente dedicate ",
+        "is_correct": true
+      },
+      {
+        "text": "Marcarea instrumentelor ",
+        "is_correct": true
+      },
+      {
+        "text": "Controlul procesului ",
+        "is_correct": true
+      },
+      {
+        "text": " Amestecarea etapelor ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa separării ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa controlului ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa marcării ",
+        "is_correct": false
+      },
+      {
+        "text": " Lipsa procedurilor ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați zonele ce necesită control:",
+    "answers": [
+      {
+        "text": "Suprafețe de lucru ",
+        "is_correct": true
+      },
+      {
+        "text": "Scaune pacienți ",
+        "is_correct": true
+      },
+      {
+        "text": " Cabina audiometrică ",
+        "is_correct": true
+      },
+      {
+        "text": "Sistem ventilație ",
+        "is_correct": true
+      },
+      {
+        "text": " Dispozitive medicale ",
+        "is_correct": true
+      },
+      {
+        "text": " Zone neutilizate ",
+        "is_correct": false
+      },
+      {
+        "text": " Exterior ",
+        "is_correct": false
+      },
+      {
+        "text": "Decor ",
+        "is_correct": false
+      },
+      {
+        "text": " Spații administrative ",
+        "is_correct": false
+      },
+      {
+        "text": "Elemente estetice ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați rolul ventilației:",
+    "answers": [
+      {
+        "text": " Reduce acumularea particulelor ",
+        "is_correct": true
+      },
+      {
+        "text": "Reduce aerosoli ",
+        "is_correct": true
+      },
+      {
+        "text": " Îmbunătățește calitatea aerului ",
+        "is_correct": true
+      },
+      {
+        "text": "Contribuie la controlul infecțiilor ",
+        "is_correct": true
+      },
+      {
+        "text": "Este necesară în spații închise ",
+        "is_correct": true
+      },
+      {
+        "text": " Nu este necesară ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu influențează ",
+        "is_correct": false
+      },
+      {
+        "text": " Este inutilă ",
+        "is_correct": false
+      },
+      {
+        "text": " Este opțională ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are rol ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați afirmatiile corecte:",
+    "answers": [
+      {
+        "text": "Igiena este esențială în prevenirea infecțiilor ",
+        "is_correct": true
+      },
+      {
+        "text": "Biofilmul crește rezistența bacteriană ",
+        "is_correct": true
+      },
+      {
+        "text": "Curățarea precede dezinfecția și sterilizarea ",
+        "is_correct": true
+      },
+      {
+        "text": "Controlul infecțiilor necesită abordare sistemică ",
+        "is_correct": true
+      },
+      {
+        "text": "Evaluarea riscului este esențială ",
+        "is_correct": true
+      },
+      {
+        "text": " Igiena este opțională ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu există risc ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu este necesară dezinfecția ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu există biofilm ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu este necesară prevenția ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați afirmațiile corecte privind sanitația:",
+    "answers": [
+      {
+        "text": "Previne contactul uman cu deșeurile ",
+        "is_correct": true
+      },
+      {
+        "text": "Are rol igienic și preventiv ",
+        "is_correct": true
+      },
+      {
+        "text": "Include gestionarea deșeurilor ",
+        "is_correct": true
+      },
+      {
+        "text": " Contribuie la promovarea sănătății ",
+        "is_correct": true
+      },
+      {
+        "text": " Reduce riscurile de îmbolnăvire ",
+        "is_correct": true
+      },
+      {
+        "text": " Este exclusiv tratament ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are rol preventiv ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu implică deșeuri ",
+        "is_correct": false
+      },
+      {
+        "text": " Este disciplină clinică ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are aplicabilitate ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați tipurile de sanitație:",
+    "answers": [
+      {
+        "text": " Sanitație de bază ",
+        "is_correct": true
+      },
+      {
+        "text": " Sanitație la sursă ",
+        "is_correct": true
+      },
+      {
+        "text": " Sanitație alimentară ",
+        "is_correct": true
+      },
+      {
+        "text": " Sanitație locativă ",
+        "is_correct": true
+      },
+      {
+        "text": " Sanitație ambientală ",
+        "is_correct": true
+      },
+      {
+        "text": " Sanitație industrială ",
+        "is_correct": false
+      },
+      {
+        "text": " Sanitație cosmetică ",
+        "is_correct": false
+      },
+      {
+        "text": " Sanitație tehnologică ",
+        "is_correct": false
+      },
+      {
+        "text": " Sanitație decorativă ",
+        "is_correct": false
+      },
+      {
+        "text": " Sanitație administrativă ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați caracteristicile sănătății mediului:",
+    "answers": [
+      {
+        "text": " Include factori fizici ",
+        "is_correct": true
+      },
+      {
+        "text": " Include factori chimici ",
+        "is_correct": true
+      },
+      {
+        "text": "Include factori biologici ",
+        "is_correct": true
+      },
+      {
+        "text": "Influențează comportamentul uman ",
+        "is_correct": true
+      },
+      {
+        "text": "Este parte a sănătății publice ",
+        "is_correct": true
+      },
+      {
+        "text": "Nu include factori externi ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are impact ",
+        "is_correct": false
+      },
+      {
+        "text": " Este limitată ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu influențează sănătatea ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu are aplicabilitate ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați componentele mediului de viață:",
+    "answers": [
+      {
+        "text": " Locuința ",
+        "is_correct": true
+      },
+      {
+        "text": " Locul de muncă ",
+        "is_correct": true
+      },
+      {
+        "text": " Spații recreative ",
+        "is_correct": true
+      },
+      {
+        "text": "Aerul ",
+        "is_correct": true
+      },
+      {
+        "text": "Apa și alimentele ",
+        "is_correct": true
+      },
+      {
+        "text": "Doar mediul natural ",
+        "is_correct": false
+      },
+      {
+        "text": " Doar locuința ",
+        "is_correct": false
+      },
+      {
+        "text": " Doar aerul ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu include alimentația ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu include apa ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați tipurile de interacțiune om-mediu:",
+    "answers": [
+      {
+        "text": "Omul influențează mediul ",
+        "is_correct": true
+      },
+      {
+        "text": "Mediul influențează omul ",
+        "is_correct": true
+      },
+      {
+        "text": " Coexistență sustenabilă ",
+        "is_correct": true
+      },
+      {
+        "text": "Relație bidirecțională ",
+        "is_correct": true
+      },
+      {
+        "text": " Interacțiune permanentă ",
+        "is_correct": true
+      },
+      {
+        "text": " Relație unilaterală ",
+        "is_correct": false
+      },
+      {
+        "text": " Fără interacțiune ",
+        "is_correct": false
+      },
+      {
+        "text": " Mediul nu influențează",
+        "is_correct": false
+      },
+      {
+        "text": " Omul nu influențează ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu există relație ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați rolurile sănătății mediului:",
+    "answers": [
+      {
+        "text": "Prevenirea bolilor ",
+        "is_correct": true
+      },
+      {
+        "text": " Promovarea sănătății ",
+        "is_correct": true
+      },
+      {
+        "text": "Protejarea populației ",
+        "is_correct": true
+      },
+      {
+        "text": "Monitorizarea mediului ",
+        "is_correct": true
+      },
+      {
+        "text": " Implementarea programelor de igienă ",
+        "is_correct": true
+      },
+      {
+        "text": "Tratament medical ",
+        "is_correct": false
+      },
+      {
+        "text": " Chirurgie ",
+        "is_correct": false
+      },
+      {
+        "text": "Terapie ",
+        "is_correct": false
+      },
+      {
+        "text": "Diagnostic ",
+        "is_correct": false
+      },
+      {
+        "text": " Reabilitare ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": "Selectați diferența dintre hazard și risc:",
+    "answers": [
+      {
+        "text": " Hazardul este sursa de pericol ",
+        "is_correct": true
+      },
+      {
+        "text": " Riscul este probabilitatea producerii efectului ",
+        "is_correct": true
+      },
+      {
+        "text": "Hazardul poate produce daune ",
+        "is_correct": true
+      },
+      {
+        "text": "Riscul implică magnitudinea consecințelor ",
+        "is_correct": true
+      },
+      {
+        "text": "Hazardul și riscul sunt diferite concepte ",
+        "is_correct": true
+      },
+      {
+        "text": " Sunt identice ",
+        "is_correct": false
+      },
+      {
+        "text": "Nu există diferență ",
+        "is_correct": false
+      },
+      {
+        "text": "Riscul este sursă ",
+        "is_correct": false
+      },
+      {
+        "text": "Hazardul este probabilitate ",
+        "is_correct": false
+      },
+      {
+        "text": " Nu au importanță ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question": " Selectați pericolele fizice:",
+    "answers": [
+      {
+        "text": " Zgomotul ",
+        "is_correct": true
+      },
+      {
+        "text": " Radiațiile ",
+        "is_correct": true
+      },
+      {
+        "text": "Temperaturile extreme ",
+        "is_correct": true
+      },
+      {
+        "text": " Incendiile ",
+        "is_correct": true
+      },
+      {
+        "text": " Podelele alunecoase ",
+        "is_correct": true
+      },
+      {
+        "text": " Virusuri ",
+        "is_correct": false
+      },
+      {
+        "text": "Bacterii ",
+        "is_correct": false
+      },
+      {
+        "text": "Paraziți ",
+        "is_correct": false
+      },
+      {
+        "text": "Substanțe chimice ",
+        "is_correct": false
+      },
+      {
+        "text": " Alimente",
+        "is_correct": false
+      }
+    ]
+  }
+]
